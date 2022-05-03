@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
-main webpage docs
-You can use the [editor on GitHub](https://github.com/kissshot-skup/webpage/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 見習いエンジニアの備忘録
+電機メーカー6年目のエンジニアです。私を始め、技術録見習い〜中堅エンジニアのための参考資料のまとめ&共にスキルアップしていきたいという思いから当サイトを立ち上げました。Quittaをはじめとした技術録に助けられる毎日ですので、私も誰かのために恩返ししたいというモチベーションです。
+筆者について
+組込エンジニア/資格:基本情報技術者試験,AWS公認ソリューションアーキテクチャアソシエイト取得
+→22年ネスペ受験予定
 
 ### Markdown
 
