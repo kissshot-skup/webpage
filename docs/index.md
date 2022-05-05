@@ -7,21 +7,15 @@
 →22年ネスペ受験予定
 ```
 
-### Markdown
+## 本HP作成における参考資料
+### GitHub Pageの立ち上げ
+- [GitHub Pageを用いたHP作成](https://netchira.github.io/blog/githubpages/GettingStarted.html)
+- [上記の補足で使用（画像付き）](https://iwb.jp/github-pages-how-to-create/)
 
-# 本HP作成における参考資料
+### Winユーザ向け特殊対応
+‐ [**Winユーザの方の記事**](https://qiita.com/ogrew/items/ecef0a4700d5bd4d875d)
+‐ [makeが通らない](https://www.ainoniwa.net/pelican/wp/1072.html)
 
-[GitHub Pageを用いたHP作成](https://netchira.github.io/blog/githubpages/GettingStarted.html)
-[上記の補足で使用（画像付き）](https://iwb.jp/github-pages-how-to-create/)
-
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
 
 **Bold** and _Italic_ and `Code` text
 
