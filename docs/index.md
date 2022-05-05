@@ -11,12 +11,8 @@
 
 # 本HP作成における参考資料
 
-[GitHub Pageを用いたHP作成](1)
-(1):https://netchira.github.io/blog/githubpages/GettingStarted.html
-
-[上記の補足で使用（画像付き）][2]
-[2]:https://iwb.jp/github-pages-how-to-create/
-
+[GitHub Pageを用いたHP作成](https://netchira.github.io/blog/githubpages/GettingStarted.html)
+[上記の補足で使用（画像付き）](https://iwb.jp/github-pages-how-to-create/)
 
 ## Header 2
 ### Header 3
