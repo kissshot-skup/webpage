@@ -5,16 +5,19 @@
 電気電子工学系出身,組込ソフトウェア開発/設計,クラウド,UWB通信
 資格:基本情報技術者試験,AWS公認ソリューションアーキテクチャアソシエイト取得
 →22年ネスペ受験予定
-```と
+```
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# 本HP作成における参考資料
 
-```markdown
-Syntax highlighted code block
+[GitHub Pageを用いたHP作成][1]
+[1]:https://netchira.github.io/blog/githubpages/GettingStarted.html
 
-# Header 1
+[上記の補足で使用（画像付き）][2]
+[2]:https://iwb.jp/github-pages-how-to-create/
+
+
 ## Header 2
 ### Header 3
 
