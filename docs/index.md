@@ -16,6 +16,8 @@
 - [**Winユーザの方の記事**](https://qiita.com/ogrew/items/ecef0a4700d5bd4d875d)
 - [makeが通らない](https://www.ainoniwa.net/pelican/wp/1072.html)
 
+## その他
+
 
 **Bold** and _Italic_ and `Code` text
 
