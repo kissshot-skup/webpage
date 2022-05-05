@@ -13,8 +13,8 @@
 - [上記の補足で使用（画像付き）](https://iwb.jp/github-pages-how-to-create/)
 
 ### Winユーザ向け特殊対応
-‐ [**Winユーザの方の記事**](https://qiita.com/ogrew/items/ecef0a4700d5bd4d875d)
-‐ [makeが通らない](https://www.ainoniwa.net/pelican/wp/1072.html)
+- [**Winユーザの方の記事**](https://qiita.com/ogrew/items/ecef0a4700d5bd4d875d)
+- [makeが通らない](https://www.ainoniwa.net/pelican/wp/1072.html)
 
 
 **Bold** and _Italic_ and `Code` text
