@@ -18,25 +18,26 @@
 ```
 
 ## ![ペン](https://kissshot-skup.github.io/webpage/docs/images "pen")【所感・資格】クラウド活用技術について
-こんなことを書いています。興味がある方は[こちら](https://kissshot-skup.github.io/webpage/GitHub_Page)
+この記事ではこんなことを書いています。興味がある方は[こちら](https://kissshot-skup.github.io/webpage/GitHub_Page)
 - クラウドを活用するイメージ
 - 経験談 資格（AWS認定ソリューションアーキテクトアソシエイト）取得について
 
 
 ## 【やってみた】自分のホームページ（HP）を簡単に立ち上げる方法！しかも無料で！
-こんなことを書いています。興味がある方は[こちら]()
+この記事ではこんなことを書いています。興味がある方は[こちら](https://kissshot-skup.github.io/webpage/GitHub_Page)
 ちょっと技術用語使って概略をまとめると
 - GitHub PageによるHP公開方法について学んだので展開します
 - WordPressより簡単、サーバ管理費かかりません
 - マークアップ言語で書かれたファイルの編集などの知識は多少いるけれど、そんなに難しくない！
+
 
 ## エンジニアがよく使う技術メモ集（リンク集）
 コマンドプロンプト フォルダ操作コマンド
 - [【コマンドプロンプト】使う度にググってしまうコマンドのメモ](http://mosinoma.cocolog-nifty.com/blog/2010/08/post-da45.html)
 
 
-### Support or Contact
+### お問い合わせ
 
-[_Mail_](yokoi1107lencois@gmail.com)
+[_お問い合わせフォーム（googleフォーム）_](https://docs.google.com/forms/d/e/1FAIpQLSfpbvbT_OmlYiQRZCubeB3hX8pdq3BXhGoAs0Ug0F3iY_x3ew/viewform?usp=sf_link)
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
