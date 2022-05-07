@@ -17,7 +17,7 @@
 →ネスペ受験予定。
 ```
 
-## ![ペン](https://kissshot-skup.github.io/webpage/docs/images "pen")【所感・資格】クラウド活用技術について
+## ![ペン](https://kissshot-skup.github.io/webpage/docs/imagesa/pen.png)【所感・資格】クラウド活用技術について
 この記事ではこんなことを書いています。興味がある方は[こちら](https://kissshot-skup.github.io/webpage/GitHub_Page)
 - クラウドを活用するイメージ
 - 経験談 資格（AWS認定ソリューションアーキテクトアソシエイト）取得について
