@@ -20,7 +20,7 @@
 ----
 
 ## <img src="./images/pen.png" width="4%">[【紹介したい】おすすめ勉強方法 その1 StudyPlus他](https://kissshot-skup.github.io/webpage/studyplus)
-この記事ではこんなことを書いています。興味がある方は[**こちら**](https://kissshot-skup.github.io/webpage/studyplus)
+この記事ではこんなことを書いています。興味がある方は
 
 - 勉強方法探索方法（Quiitaの活用）
 - 勉強のモチベ維持（StudyPlusを活用）
@@ -28,15 +28,16 @@
 ----
 
 ## <img src="./images/pen.png" width="4%">[【資格とってみた】クラウド(AWS)資格取得について](https://kissshot-skup.github.io/webpage/AWS_SAA)
-この記事ではこんなことを書いています。興味がある方は[**こちら**](https://kissshot-skup.github.io/webpage/AWS_SAA)
+この記事ではこんなことを書いています。
+
 - クラウド技術に関する勉強を始めるモチベーション
 - 経験談 資格（AWS認定ソリューションアーキテクトアソシエイト）取得について
 
 
 ----
 
-## <img src="./images/pen.png" width="4%">[【やってみた】自分のホームページ（HP）を簡単に立ち上げる方法！しかも無料]((https://kissshot-skup.github.io/webpage/studyplus)
-この記事ではこんなことを書いています。興味がある方は[**こちら**](https://kissshot-skup.github.io/webpage/GitHub_Page)
+## <img src="./images/pen.png" width="4%">[【やってみた】自分のホームページ（HP）を簡単に立ち上げる方法！しかも無料](https://kissshot-skup.github.io/webpage/studyplus)
+この記事ではこんなことを書いています。
 
 - GitHub PageによるHP公開方法について学んだので展開します
 - WordPressより簡単、サーバ管理費かかりません
