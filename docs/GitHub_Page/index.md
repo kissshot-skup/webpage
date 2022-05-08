@@ -25,9 +25,9 @@ title: GitHub PageによるHP公開方法について
 ただ、私がGitHub初心者ということもあり、上記記事だけでは、つまるポイントが何点かありました。
 特に難しくさせていると感じた点は下記です。
 
-- GitHubが何かをわかっている＆操作も慣れている前提
-- コマンド操作ができる人前提
-- Macユーザ向けの操作方法で書かれている記事が多い
+1. GitHubが何かをわかっている＆操作も慣れている前提
+2. コマンド操作ができる人前提
+3. Macユーザ向けの操作方法で書かれている記事が多い
 
 なので、そこを補足しつつ説明していきます。
 この段階でわかるべきことは
@@ -35,6 +35,9 @@ title: GitHub PageによるHP公開方法について
 の二つの手順でHPが作成できるということです。
 
 ではそれぞれやっていきましょう。
+
+
+----
 
 ### 1.GitHubの登録
 下記の記事を参考にGitHubのユーザ登録を行いましょう。
@@ -46,6 +49,8 @@ title: GitHub PageによるHP公開方法について
 - [GitHubとは？特徴からアカウント登録方法まで徹底解説！](https://udemy.benesse.co.jp/development/system/what-is-github.html)
 
 
+----
+
 ### 2.GitHub Pageの設定
 次のステップでHPを作成していきます。
 まず、下記記事のリポジトリの作成というところまで進めてみてください。
@@ -56,10 +61,16 @@ title: GitHub PageによるHP公開方法について
 - [GitHub Pagesでプロジェクトホームページを作る。15秒で。](https://qiita.com/kaitoy/items/509ccefb1b31d80ba3f1)
 
 
+
+----
+
 ### 3.HPの確認
 　無事2．まで完了したら作成したHPを確認してみましょう。
 　上記2．で作った「https://アカウント名.github.io」をWebページのバーに入力してみてください。
 
+
+
+----
 
 ### その他メモ
 　以下は紆余曲折あって、上記以外で対応したときにハマったポイントです。
@@ -89,6 +100,8 @@ title: GitHub PageによるHP公開方法について
   Markdown記法（タイトル、太字、斜体他）
 - [Markdown記法](https://notepm.jp/help/how-to-markdown)
 
+
+----
 
 
 ## [Mainページに戻る](https://kissshot-skup.github.io/webpage)
