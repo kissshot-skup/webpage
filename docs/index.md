@@ -17,14 +17,14 @@
 ```
 
 ## <img src="./images/pen.png" width="4%">【所感・資格】クラウド活用技術について
-この記事ではこんなことを書いています。興味がある方は[_こちら_](https://kissshot-skup.github.io/webpage/GitHub_Page)
-- クラウドを活用するイメージ
+この記事ではこんなことを書いています。興味がある方は[**こちら**](https://kissshot-skup.github.io/webpage/AWS_ASS)
+- クラウド技術に関する勉強を始めるモチベーション
 - 経験談 資格（AWS認定ソリューションアーキテクトアソシエイト）取得について
 
 
 ## <img src="./images/pen.png" width="4%">【やってみた】自分のホームページ（HP）を簡単に立ち上げる方法！しかも無料で！
-この記事ではこんなことを書いています。興味がある方は[_こちら_](https://kissshot-skup.github.io/webpage/GitHub_Page)
-ちょっと技術用語使って概略をまとめると
+この記事ではこんなことを書いています。興味がある方は['**こちら**'](https://kissshot-skup.github.io/webpage/GitHub_Page)
+
 - GitHub PageによるHP公開方法について学んだので展開します
 - WordPressより簡単、サーバ管理費かかりません
 - マークアップ言語で書かれたファイルの編集などの知識は多少いるけれど、そんなに難しくない！
