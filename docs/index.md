@@ -16,23 +16,33 @@
 →22～23年ネスペ受験予定
 ```
 
-## <img src="./images/pen.png" width="4%">【所感・資格】クラウド活用技術について
+
+----
+
+## <img src="./images/pen.png" width="4%">【資格とってみた】クラウド(AWS)資格取得について
 この記事ではこんなことを書いています。興味がある方は[**こちら**](https://kissshot-skup.github.io/webpage/AWS_ASS)
 - クラウド技術に関する勉強を始めるモチベーション
 - 経験談 資格（AWS認定ソリューションアーキテクトアソシエイト）取得について
 
 
+----
+
 ## <img src="./images/pen.png" width="4%">【やってみた】自分のホームページ（HP）を簡単に立ち上げる方法！しかも無料で！
-この記事ではこんなことを書いています。興味がある方は['**こちら**'](https://kissshot-skup.github.io/webpage/GitHub_Page)
+この記事ではこんなことを書いています。興味がある方は[**こちら**](https://kissshot-skup.github.io/webpage/GitHub_Page)
 
 - GitHub PageによるHP公開方法について学んだので展開します
 - WordPressより簡単、サーバ管理費かかりません
-- マークアップ言語で書かれたファイルの編集などの知識は多少いるけれど、そんなに難しくない！
+- マークダウン言語で書かれたファイルの編集などの知識は多少いるけれど、そんなに難しくない！
 
+
+----
 
 ## <img src="./images/pen.png" width="4%">エンジニアがよく使う技術メモ集（リンク集）
 コマンドプロンプト フォルダ操作コマンド
 - [【コマンドプロンプト】使う度にググってしまうコマンドのメモ](http://mosinoma.cocolog-nifty.com/blog/2010/08/post-da45.html)
+
+
+----
 
 ### <img src="./images/question.png" width="5%"> お問い合わせ
 

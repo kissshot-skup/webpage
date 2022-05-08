@@ -7,12 +7,16 @@ title: GitHub PageによるHP公開方法について
 この記事にはこんなことが書かれています。
 ‐ GitHub PageによるHP公開方法について
 ‐ WordPressより簡単、サーバ管理費かかりません
-‐ マークアップ言語で書かれたファイルの編集などの知識は多少いるけれど、そんなに難しくない！
+‐ マークダウン言語で書かれたファイルの編集などの知識は多少いるけれど、そんなに難しくない！
 ```
 
+----
+
 ## まずは全体の流れを把握しよう
+一番の早い方法は何となく全体像を把握してからポイントを絞って取り組む進め方と思います。
 下記の記事をサラっと眺めて何となく何が必要かを感じてみましょう。
-それが一番の早い方法かと思います。何となくで大丈夫です、わからないところは下記で解説します。
+わからないところは下段で解説しますので、まずは何となく一読で大丈夫です。
+
 - [GitHubを使って3分でHPを公開する](https://qiita.com/budougumi0617/items/221bb946d1c90d6769e9)
 - [GitHub Pageを用いたHP作成](https://netchira.github.io/blog/githubpages/GettingStarted.html)
 - [1分でできるGitHub Pagesの作成方法](https://iwb.jp/github-pages-how-to-create/)
@@ -20,11 +24,12 @@ title: GitHub PageによるHP公開方法について
 一つ目のリンクは、Quittaで最もLikeが多い記事です。つまり人気がある記事です。
 ただ、私がGitHub初心者ということもあり、上記記事だけでは、つまるポイントが何点かありました。
 特に難しくさせていると感じた点は下記です。
-・GitHubが何かをわかっている＆操作も慣れている前提
-・コマンド操作ができる人前提
-・Macユーザ向けの操作方法で書かれている記事が多い
 
-なので、上記でわからないところを補足しつつ下記に説明していきます。
+- GitHubが何かをわかっている＆操作も慣れている前提
+- コマンド操作ができる人前提
+- Macユーザ向けの操作方法で書かれている記事が多い
+
+なので、そこを補足しつつ説明していきます。
 この段階でわかるべきことは
 「GitHubに登録する→GitHub PageというアプリでHPを公開する設定にする」
 の二つの手順でHPが作成できるということです。
@@ -76,11 +81,13 @@ title: GitHub PageによるHP公開方法について
 - [ローカルホストでHPを確認する](https://qiita.com/higuma/items/b23ca9d96dac49999ab9)
 - [作ったHP](https://kissshot-skup.github.io/webpage/)
 
-  Markup言語で画像を挿入する
+  Markdown言語で画像を挿入する
 - [GitHubでREADME.mdにレポジトリ上にある画像ファイルを表示するアレコレ](https://qiita.com/hibara/items/f343b5ec2f48d46adfe6)
   アイコン集
 - [拝借させていただいたアイコン集](https://boxicons.com/)
 
+  Markdown記法（タイトル、太字、斜体他）
+- [Markdown記法](https://notepm.jp/help/how-to-markdown)
 
 
 
