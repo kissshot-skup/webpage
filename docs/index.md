@@ -19,6 +19,14 @@
 
 ----
 
+## <img src="./images/pen.png" width="4%">【紹介したい】おすすめ勉強方法 その1 StudyPlus他
+この記事ではこんなことを書いています。興味がある方は[**こちら**](https://kissshot-skup.github.io/webpage/studyplus)
+
+‐ 勉強方法探索方法（Quiitaの活用）
+‐ 勉強のモチベ維持（StudyPlusを活用）
+
+----
+
 ## <img src="./images/pen.png" width="4%">【資格とってみた】クラウド(AWS)資格取得について
 この記事ではこんなことを書いています。興味がある方は[**こちら**](https://kissshot-skup.github.io/webpage/AWS_ASS)
 - クラウド技術に関する勉強を始めるモチベーション
