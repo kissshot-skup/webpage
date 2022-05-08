@@ -34,7 +34,7 @@
 コマンドプロンプト フォルダ操作コマンド
 - [【コマンドプロンプト】使う度にググってしまうコマンドのメモ](http://mosinoma.cocolog-nifty.com/blog/2010/08/post-da45.html)
 
-## <img src="images/pen.png"width="5%">test
+## <img src="images/pen.png pen""width="5%">test
 ## <img src="images/pen.png"width="8%">てすと
 ## <img src="images/pen.png"width="15%">テスト
 
