@@ -34,7 +34,6 @@
 - クラウド技術に関する勉強を始めるモチベーション
 - 経験談 資格（AWS認定ソリューションアーキテクトアソシエイト）取得について
 
-
 ----
 
 ## <img src="./images/pen.png" width="4%">[【やってみた】自分のホームページを簡単に立ち上げる方法！しかも無料](https://kissshot-skup.github.io/webpage/GitHub_Page)
@@ -58,5 +57,3 @@
 ### <img src="./images/question.png" width="5%"> お問い合わせ
 
 [_お問い合わせフォーム（googleフォーム）_](https://docs.google.com/forms/d/e/1FAIpQLSfpbvbT_OmlYiQRZCubeB3hX8pdq3BXhGoAs0Ug0F3iY_x3ew/viewform?usp=sf_link)
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
