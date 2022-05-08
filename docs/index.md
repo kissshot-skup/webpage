@@ -40,7 +40,6 @@
 ## <img src="./images/pen.png" width="4%">[【やってみた】自分のホームページ（HP）を簡単に立ち上げる方法！しかも無料](https://kissshot-skup.github.io/webpage/GitHub_Page)
 
 この記事ではこんなことを書いています。
-
 - GitHub PageによるHP公開方法について学んだので展開します
 - WordPressより簡単、サーバ管理費かかりません
 - マークダウン言語で書かれたファイルの編集などの知識は多少いるけれど、そんなに難しくない！
