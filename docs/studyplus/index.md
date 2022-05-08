@@ -64,11 +64,11 @@ Quiitaで見てから買うのとでは信頼度が違いますし、
 一言で言うと「読んだ本のページや作業時間を記録できる」サービスです。
 例えばSAAを勉強していたころは、下記のような感じでした
 
- <img src="../images/jikan.png" width="5%"> 
+ <img src="../images/jikan.png" width="40%"> 
 
 スマホで参考書のバーコードを読み込むと本を追加できます。
 
- <img src="../images/hondana.png" width="5%"> 
+ <img src="../images/hondana.png" width="40%"> 
 
 他の人が登録している本や作業名を借りることもできます。
 一日に●分▲▲の本を読んだという感じで記録すると
@@ -76,7 +76,7 @@ Quiitaで見てから買うのとでは信頼度が違いますし、
 
 また、週の初めに目標時間を設定することができます。
 
- <img src="../images/mokuhyou.png" width="5%"> 
+ <img src="../images/mokuhyou.png" width="40%"> 
 
 私は毎週3時間設定していて、これをクリアするために、
 眠くてもとりあえず本を開くようになりました。
@@ -85,7 +85,7 @@ Quiitaで見てから買うのとでは信頼度が違いますし、
 最後に、モチベ維持に貢献していることとして
 他のユーザーからいいねが押されることがあります。
 
- <img src="../images/taimurain.png" width="5%"> 
+ <img src="../images/taimurain.png" width="40%"> 
 
 ↑自分のタイムラインのみ表示していますが、
 タイムライン上にやったことを表示させることができ、
@@ -98,12 +98,12 @@ Quiitaで見てから買うのとでは信頼度が違いますし、
 サボっていたころは下記だったのが...
 ※毎日1分でも作業した日にチェックマークが入ります
 
- <img src="../images/mae.png" width="5%"> 
+ <img src="../images/mae.png" width="40%"> 
 
 最近ではこんな感じです↓
 
- <img src="../images/ato1.png" width="5%"> 
- <img src="../images/ato2.png" width="5%"> 
+ <img src="../images/ato1.png" width="40%"> 
+ <img src="../images/ato2.png" width="40%"> 
 
 
 皆さんもぜひ初めてみてください。
@@ -111,6 +111,10 @@ Quiitaで見てから買うのとでは信頼度が違いますし、
 
 他にもTwitterを使った勉強法も考えて実践しています。
 それは次回の記事で。
+
+
+----
+
 
 ## [Mainページに戻る](https://kissshot-skup.github.io/webpage)
 

@@ -28,7 +28,7 @@
 ----
 
 ## <img src="./images/pen.png" width="4%">【資格とってみた】クラウド(AWS)資格取得について
-この記事ではこんなことを書いています。興味がある方は[**こちら**](https://kissshot-skup.github.io/webpage/AWS_ASS)
+この記事ではこんなことを書いています。興味がある方は[**こちら**](https://kissshot-skup.github.io/webpage/AWS_SAA)
 - クラウド技術に関する勉強を始めるモチベーション
 - 経験談 資格（AWS認定ソリューションアーキテクトアソシエイト）取得について
 
