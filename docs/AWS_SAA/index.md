@@ -106,10 +106,10 @@ IoTやクラウド技術の活用を求められる機会が増えている今�
 
 ----
 
-‗その他参考にしたページ‗
+_その他参考にしたページ_
 Quittaで体験談を書かれている方が多数います。
 自分に合う勉強法を探してみるのもよいかもしれません。
-[QuiitaでAWS SAAで検索](https://qiita.com/search?sort=&q=AWS+SAA)
+- [QuiitaでAWS SAAで検索](https://qiita.com/search?sort=&q=AWS+SAA)
 
 ## [Mainページに戻る](https://kissshot-skup.github.io/webpage)
 
