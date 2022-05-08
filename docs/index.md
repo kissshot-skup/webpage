@@ -16,14 +16,14 @@
 →22～23年ネスペ受験予定
 ```
 
-## <img src="./images/pen.png" width="5%">【所感・資格】クラウド活用技術について
-この記事ではこんなことを書いています。興味がある方は[こちら](https://kissshot-skup.github.io/webpage/GitHub_Page)
+## <img src="./images/pen.png" width="4%">【所感・資格】クラウド活用技術について
+この記事ではこんなことを書いています。興味がある方は[_こちら_](https://kissshot-skup.github.io/webpage/GitHub_Page)
 - クラウドを活用するイメージ
 - 経験談 資格（AWS認定ソリューションアーキテクトアソシエイト）取得について
 
 
-## <img src="./images/pen.png" width="6%">【やってみた】自分のホームページ（HP）を簡単に立ち上げる方法！しかも無料で！
-この記事ではこんなことを書いています。興味がある方は[こちら](https://kissshot-skup.github.io/webpage/GitHub_Page)
+## <img src="./images/pen.png" width="4%">【やってみた】自分のホームページ（HP）を簡単に立ち上げる方法！しかも無料で！
+この記事ではこんなことを書いています。興味がある方は[_こちら_](https://kissshot-skup.github.io/webpage/GitHub_Page)
 ちょっと技術用語使って概略をまとめると
 - GitHub PageによるHP公開方法について学んだので展開します
 - WordPressより簡単、サーバ管理費かかりません
@@ -34,7 +34,7 @@
 コマンドプロンプト フォルダ操作コマンド
 - [【コマンドプロンプト】使う度にググってしまうコマンドのメモ](http://mosinoma.cocolog-nifty.com/blog/2010/08/post-da45.html)
 
-### <img src="./images/question.png" width="100%"> お問い合わせ
+### <img src="./images/question.png" width="5%"> お問い合わせ
 
 [_お問い合わせフォーム（googleフォーム）_](https://docs.google.com/forms/d/e/1FAIpQLSfpbvbT_OmlYiQRZCubeB3hX8pdq3BXhGoAs0Ug0F3iY_x3ew/viewform?usp=sf_link)
 

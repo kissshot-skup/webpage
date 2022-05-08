@@ -78,9 +78,11 @@ title: GitHub PageによるHP公開方法について
 
   Markup言語で画像を挿入する
 - [GitHubでREADME.mdにレポジトリ上にある画像ファイルを表示するアレコレ](https://qiita.com/hibara/items/f343b5ec2f48d46adfe6)
+  アイコン集
+- [拝借させていただいたアイコン集](https://boxicons.com/)
 
-### Support or Contact
 
-[_Mail_](yokoi1107lencois@gmail.com)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+## [Mainページに戻る](https://kissshot-skup.github.io/webpage)
+
