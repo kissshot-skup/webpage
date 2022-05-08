@@ -76,6 +76,8 @@ title: GitHub PageによるHP公開方法について
 - [ローカルホストでHPを確認する](https://qiita.com/higuma/items/b23ca9d96dac49999ab9)
 - [作ったHP](https://kissshot-skup.github.io/webpage/)
 
+  Markup言語で画像を挿入する
+- [GitHubでREADME.mdにレポジトリ上にある画像ファイルを表示するアレコレ](https://qiita.com/hibara/items/f343b5ec2f48d46adfe6)
 
 ### Support or Contact
 

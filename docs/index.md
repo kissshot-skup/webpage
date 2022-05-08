@@ -17,13 +17,13 @@
 →ネスペ受験予定。
 ```
 
-## ![ペン](https://kissshot-skup.github.io/webpage/docs/imagesa/pen.png)【所感・資格】クラウド活用技術について
+## ![ペン](https://kissshot-skup.github.io/webpage/docs/images/pen.png)【所感・資格】クラウド活用技術について
 この記事ではこんなことを書いています。興味がある方は[こちら](https://kissshot-skup.github.io/webpage/GitHub_Page)
 - クラウドを活用するイメージ
 - 経験談 資格（AWS認定ソリューションアーキテクトアソシエイト）取得について
 
 
-## 【やってみた】自分のホームページ（HP）を簡単に立ち上げる方法！しかも無料で！
+## ![ペン](https://kissshot-skup.github.io/webpage/docs/images/pen.png "pen")【やってみた】自分のホームページ（HP）を簡単に立ち上げる方法！しかも無料で！
 この記事ではこんなことを書いています。興味がある方は[こちら](https://kissshot-skup.github.io/webpage/GitHub_Page)
 ちょっと技術用語使って概略をまとめると
 - GitHub PageによるHP公開方法について学んだので展開します
@@ -31,7 +31,7 @@
 - マークアップ言語で書かれたファイルの編集などの知識は多少いるけれど、そんなに難しくない！
 
 
-## エンジニアがよく使う技術メモ集（リンク集）
+##  ![](images/pen.png "pen")エンジニアがよく使う技術メモ集（リンク集）
 コマンドプロンプト フォルダ操作コマンド
 - [【コマンドプロンプト】使う度にググってしまうコマンドのメモ](http://mosinoma.cocolog-nifty.com/blog/2010/08/post-da45.html)
 
