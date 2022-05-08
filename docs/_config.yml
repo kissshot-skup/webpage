@@ -2,3 +2,13 @@ theme: jekyll-theme-leap-day
 title: 見習いエンジニアの備忘録
 plugins:
  - jekyll-sitemap
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H1234VX5NE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H1234VX5NE');
+</script>
