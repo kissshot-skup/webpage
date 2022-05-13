@@ -1,6 +1,10 @@
 ---
 title: 【おすすめ勉強方法 その1】ネットの情報活用＋StudyPlus活用について
 ---
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2844921131740253"
+     crossorigin="anonymous"></script>
+
+
 
 
 ```
