@@ -28,13 +28,24 @@
 →22～23年ネスペ受験予定
 ```
 
+----
+
+## <img src="./images/pen.png" width="4%">[【紹介したい】推奨勉強法 その2 ノートに記入する時代は終わった！Twitter活用](https://kissshot-skup.github.io/webpage/study_twitter)
+
+この記事ではこんなことを書いています。
+
+- ノートをとる時代はもう古い
+- 推奨勉強法その２（Twitterの活用）
+- 人はすぐ忘れてしまう
+- 人は繰り返し体験したことや教訓を覚える
+- アウトプットすることが、自分や世の中の価値になる
 
 ----
 
-## <img src="./images/pen.png" width="4%">[【紹介したい】おすすめ勉強方法 その1 StudyPlus他](https://kissshot-skup.github.io/webpage/studyplus)
+## <img src="./images/pen.png" width="4%">[【紹介したい】推奨勉強法 その1 StudyPlus他](https://kissshot-skup.github.io/webpage/studyplus)
 
-この記事ではこんなことを書いています。興味がある方は
-- 勉強方法探索方法（Quiitaの活用）
+この記事ではこんなことを書いています。
+- ゴールまでの最短ルートの探索（Quiitaの活用）
 - 勉強のモチベ維持（StudyPlusを活用）
 
 ----
