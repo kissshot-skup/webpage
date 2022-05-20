@@ -3,6 +3,5 @@ title: 見習いエンジニアの備忘録
 plugins:
  - jekyll-sitemap
 google_analytics: G-H1234VX5NE
-
 gems:
   - jekyll-sitemap
