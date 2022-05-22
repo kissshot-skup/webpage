@@ -23,9 +23,8 @@ Quittaをはじめとしたネット上の技術メモに助けられている�
 
 ただの勉強ブログ化してしまいそうなので、
 他の記者2名にも声をかけて、色々な分野の記事を書いていく予定です。
-筆者の詳細な紹介は[こちら](./jikosyoukai)
 ```
-
+筆者の詳細な紹介は[こちら](./jikosyoukai)
 ----
 
 ## <img src="./images/pen.png" width="4%">[【紹介したい】推奨勉強法 その2 ノートに記入する時代は終わった！Twitter活用](https://kissshot-skup.github.io/webpage/study_twitter)
@@ -77,6 +76,8 @@ Quittaをはじめとしたネット上の技術メモに助けられている�
 
 ## <img src="./images/pen.png" width="4%">[自己紹介](./jikosyoukai)
 
+この記事ではこんなことを書いています。
+- 筆者紹介
 
 ----
 ### <img src="./images/question.png" width="5%"> お問い合わせ
