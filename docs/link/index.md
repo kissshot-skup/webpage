@@ -15,7 +15,7 @@ title: LINK集
 
 ----
 
-■資格・勉強法
+■資格・勉強法<br>
 -[AWSの資格取得時の体験記](https://kissshot-skup.github.io/webpage/AWS_SAA/)
 <br>
 -[勉強メソッドその1](https://kissshot-skup.github.io/webpage/studyplus/)
@@ -24,18 +24,18 @@ title: LINK集
 <br>
 <br>
 
-■エンジニアリング（通信関係）
+■エンジニアリング（通信関係）<br>
 -[ネットワーク設計#1](https://kissshot-skup.github.io/webpage/qos/)
 <br>
 -[ネットワーク基礎知識#1](https://kissshot-skup.github.io/webpage/nwkiso_denso/)<br>
 <br>
 
-■エンジニアリング（Web関係）
+■エンジニアリング（Web関係）<br>
 -[GitHub Pagesの機能を使ってWEB制作](https://kissshot-skup.github.io/webpage/GitHub_Page/)
 <br>
 <br>
 
-■その他
+■その他<br>
 -[Podcastをはじめよう](https://kissshot-skup.github.io/webpage/podcast/)
 <br>
 ‐[自己紹介](https://kissshot-skup.github.io/webpage/jikosyoukai/)
