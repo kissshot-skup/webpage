@@ -1,5 +1,5 @@
 ---
-title: 【情報処理】RIP,伝送理論について学んだこと2
+title: 2台のPCを繋いでパケットの中身を見てみよう
 ---
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2844921131740253"
      crossorigin="anonymous"></script>
