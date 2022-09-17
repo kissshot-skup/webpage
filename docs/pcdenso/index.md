@@ -39,14 +39,14 @@ title: 【情報処理】RIP,伝送理論について学んだこと2
 [https://www.vector.co.jp/soft/win95/net/se363834.html](https://www.vector.co.jp/soft/win95/net/se363834.html)
 <br>
 <br>
----
+----
 ■接続構成<br>
 下図のような構成を構築。ただ上記を繋いだだけです。<br>
 事前にPCに各アプリをインストールしておきましょう。<br>
 <img src="../images/kousei.png" width="50%"> 
 <br>
 <br>
----
+----
 <br>
 ■さっそく通信テスト！<br>
 ここから本番です。<br>
@@ -75,7 +75,7 @@ wiresharkでも検知しています。<br>
 
 <br>
 <br>
----
+----
 <br>
 ■好きなパケットを流してみよう<br>
 通信確認がとれたので、パケットを流してみます。<br>
@@ -106,7 +106,7 @@ PC2のwiresharkでUDPを受信したことを確認できました。<br>
 逆（PC2⇒PC1）もまたしかり。<br>
 <br>
 <br>
----
+----
 <br>
 ■最後に<br>
 MACやIPアドレスの設定が間違っていたりすると通信できません。<br>
