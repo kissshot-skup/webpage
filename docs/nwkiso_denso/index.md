@@ -92,8 +92,13 @@ CSMA/CDは半二重(half duplex)の通信において使用する通信方式で
 スイッチングハブに接続されたノードはいつでもデータの送受信が可能。
 ※リピータハブを使った場合は衝突する。下記参照 <br>
 [http://www.osssme.com/doc/funto106-no20.html](http://www.osssme.com/doc/funto106-no20.html)
- <br>
-
+<br>
+<br>
+■TCP（Transmissyon Control Protocol）<br>
+Web、メール、FTPなどデータを確実に送り届けたい通信で使われます。<br>
+TCPは、データをセグメントに分割して送信するだけでなく、確実に送り届けるために送信速度を調整し、上手く届かなかったデータがあれば再送するように手配します。<br>
+<br>
+<br>
 ----
 
 ■リピータハブの応用面白かった記事 <br>
