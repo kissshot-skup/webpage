@@ -31,9 +31,17 @@ title: LINK集
 <br>
 -[ネットワーク基礎知識#2](https://kissshot-skup.github.io/webpage/nwkiso_denso2/)<br>
 <br>
+-[ネットワーク基礎実験](https://kissshot-skup.github.io/webpage/pcdenso/)<br>
+<br>
+<br>
 
 ■エンジニアリング（Web関係）<br>
 -[GitHub Pagesの機能を使ってWEB制作](https://kissshot-skup.github.io/webpage/GitHub_Page/)
+<br>
+<br>
+
+■エンジニアリング（機械学習・AI・データ分析）<br>
+-[Python初心者が時系列データの学習](https://kissshot-skup.github.io/webpage/aiskillup/)
 <br>
 <br>
 

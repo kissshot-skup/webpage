@@ -1,0 +1,112 @@
+時系列データの学習
+
+■私的要望
+・Anacondaを使用する
+・prophetのライブラリを使いたい
+
+■環境
+めちゃくちゃ時間がかかった。エラーが出まくった。
+ここでつまづく人が多いと思う。以下参考になれば。
+
+ライブラリprophetは、pythonのバージョンを選ぶらしいです。
+下記サイトを参考にだいぶ前のバージョンpython 3.7.11でAnaconda上で立ち上げ。
+それから下記サイトのとおり
+conda install libpython
+conda install -c msys2 m2w64-toolchain
+conda install numpy cython matplotlib pandas statsmodels scikit-learn
+conda install -c conda-forge fbprophet
+conda install -n base -c conda-forge jupyterlab_widgets
+conda install -n Python_ex -c conda-forge ipywidgets
+を順に実行。5分くらいかかるかな。
+https://sukkiri.jp/technologies/ides/anaconda/%E6%9C%80%E6%96%B0%E7%89%88anaconda21%E5%B9%B45%E6%9C%8827%E6%97%A5%E7%8F%BE%E5%9C%A8%E3%81%ABpython3-7%E3%81%AE%E7%92%B0%E5%A2%83%E3%82%92%E4%BD%9C%E3%82%8Aprophet%E3%82%92%E3%82%A4%E3%83%B3.html
+
+上記でjupiterLabを使ったことがなかったが、こちらを参照
+https://udemy.benesse.co.jp/development/python-work/jupyter-notebook.html
+NewからPython3クリックで新規ファイルを作成すればよい
+※もちろんPythonのプロンプトで実行でも同様の処理が可能。
+
+
+■時系列データ解析テスト
+https://www.salesanalytics.co.jp/datascience/datascience091/
+
+上記でつまづいたところ
+・Optunaが無いよ～というエラーが出た
+下記サイトを参考にインストール
+https://rin-effort.com/2019/12/30/machine-learning-7/
+端的に言えば以下コマンドを実行
+conda install -c conda-forge optuna
+※上記サイトのとおりconda install optunaではNG
+
+以下、ちょっとアレンジ
+―――
+・入力データを変えてみる
+
+https://qiita.com/ishiken3/items/71f1d354b3119ae6c09f
+
+・詳細にパラメータチューニングするなら
+https://amateur-engineer-blog.com/getting-started-prophet/
+
+■その他初心者的に悩んだところ
+★パッケージのインストール時に、色々やり方があること
+例えば
+①pip ～
+②!pip ～
+③conda ～
+
+①はコマンドプロンプトで実行する時のコード
+②はJupyter Notebookでの実行コード
+③はAnacondaでの実行コード
+
+エラーが出まくるので、一つずつgoogle先生に聞いてつぶしていくしかない
+SSLエラー系は、管理者権限でコマンドプロンプトを起動したら直るとか
+Pathの設定がおかしかったりという記事が多く、四苦八苦しながら対処した。
+あとはバージョン違いだと動かないということがざらにある。
+ダウングレードしたりすると解消するが、先駆者が実行した環境と同じバージョンを
+用意してやってみるのが最短だと思った。
+それで通らないなら、別の問題がある。
+試行錯誤した結果、エラーを出しながらも出力結果は問題なかったり、
+いつの間にか解消したり、最終的に何が良かったのかはわからないというのが多い。
+
+
+
+★python構文で調べたところ
+例として調べた構文の意味合いをメモする。
+【import x as y】：ライブラリを読み込んで好きな名前にリネームする
+　xはライブラリ名
+　yは自分の好きな名前
+　
+メリット：長い名前のライブラリ名を省略できる。
+例：
+　import pandas as pd
+　～
+　df = pd.read_csv(url)
+　
+　#pandasというライブラリをpdと呼び
+　#pdライブラリ内のread_csv()関数を使ってcsvを読み込みdfに保存
+　
+【from x import y】
+　x:モジュール名
+　y:クラス名
+　
+例：from math import pi
+　  print(pi)
+　#表示は 3.141592653589793となる
+　#mathモジュールをインポートし、pi変数を利用
+　#piは円周率の値
+
+【iloc】
+ilocは行と列を「行番号」「列番号」で指定します
+df_sample.iloc[0:5,0:3]　←df_sampleのテーブルから1～5行目×1～3列目を取り出し
+
+【配列[始点:終点]】
+https://qiita.com/tanuk1647/items/276d2be36f5abb8ea52e
+
+【plt.subplots()】
+軸追加する時に使う
+
+【plt.legend()】
+凡例を追加する
+
+
+
+
