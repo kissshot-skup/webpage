@@ -95,9 +95,10 @@ conda install -c conda-forge optuna
 ※上記サイトのとおりconda install optunaではNG <br>
 
 その他もっと初心者的につまづいたところは最下段で案内しています。 <br>
-
-‐---
  <br>
+
+---
+
 ■その他初心者的に悩んだところ <br>
 ・パッケージのインストール時に、色々やり方があること <br>
 例えば <br>

@@ -17,18 +17,17 @@ title: Python初心者が時系列データの学習2
 
 ```
 この記事にはこんなことが書かれています。
-- prophetによる時系列データの学習
+- prophetによる時系列データの学習をしてみた
 - 気象庁のデータから気温予測してみる
 ```
 
 ----
- <br>
 ■環境の準備他<br>
 前回の記事を参考にして環境を構築してみましょう。<br>
 [前回の記事](https://kissshot-skup.github.io/webpage/aiskillup/) 
  <br>
-----
  <br>
+----
 ■データセットの用意<br>
 気象庁から月間の平均気温データを取得しました。 <br>
 [気象庁HP](https://www.data.jma.go.jp/obd/stats/etrn/view/monthly_s3.php?prec_no=62&block_no=47772) <br>
@@ -73,6 +72,7 @@ forecast
 # plt.figure(figsize=(2,3))
 m.plot(forecast)
 plt.legend()
+<br>
 ```
 青線が学習結果です。黒い点が入力点になります。 <br>
 <img src="../images/jikeiretsuyosoku.png" width="80%"> 
@@ -91,8 +91,7 @@ plt.legend()
 forecast.to_csv("output.csv")
 ```
 
-
-‐---
+----
  <br>
 ■今後やっていきたいこと <br>
 prophetで使う関数の数学的意味も理解しないといけないと思っています。<br>
