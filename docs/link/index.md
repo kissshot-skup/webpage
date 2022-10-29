@@ -16,21 +16,15 @@ title: LINK集
 ----
 
 ■資格・勉強法<br>
--[AWSの資格取得時の体験記](https://kissshot-skup.github.io/webpage/AWS_SAA/)
-<br>
--[勉強メソッドその1](https://kissshot-skup.github.io/webpage/studyplus/)
-<br>
--[勉強メソッドその2](https://kissshot-skup.github.io/webpage/study_twitter/)
-<br>
+-[AWSの資格取得時の体験記](https://kissshot-skup.github.io/webpage/AWS_SAA/)<br>
+-[勉強メソッドその1](https://kissshot-skup.github.io/webpage/studyplus/)<br>
+-[勉強メソッドその2](https://kissshot-skup.github.io/webpage/study_twitter/)<br>
 <br>
 
 ■エンジニアリング（通信関係）<br>
--[ネットワーク設計#1](https://kissshot-skup.github.io/webpage/qos/)
-<br>
+-[ネットワーク設計#1](https://kissshot-skup.github.io/webpage/qos/)<br>
 -[ネットワーク基礎知識#1](https://kissshot-skup.github.io/webpage/nwkiso_denso/)<br>
-<br>
 -[ネットワーク基礎知識#2](https://kissshot-skup.github.io/webpage/nwkiso_denso2/)<br>
-<br>
 -[ネットワーク基礎実験](https://kissshot-skup.github.io/webpage/pcdenso/)<br>
 <br>
 <br>
@@ -41,8 +35,9 @@ title: LINK集
 <br>
 
 ■エンジニアリング（機械学習・AI・データ分析）<br>
--[Python初心者が時系列データの学習](https://kissshot-skup.github.io/webpage/aiskillup/)
-<br>
+-[Python初心者が時系列データの学習](https://kissshot-skup.github.io/webpage/aiskillup/)<br>
+-[Python初心者が時系列データの学習2](https://kissshot-skup.github.io/webpage/aiskillup2/)<br>
+-[食洗器の販売台数を機械学習で予測](https://kissshot-skup.github.io/webpage/aiskillup3/)<br>
 <br>
 
 ■その他<br>
