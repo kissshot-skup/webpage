@@ -1,5 +1,5 @@
 ---
-title: Python初心者が時系列データの学習3
+title: 食洗器の販売台数を機械学習で予測!
 ---
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2844921131740253"
      crossorigin="anonymous"></script>
@@ -54,7 +54,7 @@ title: Python初心者が時系列データの学習3
 11月は寒くなってきて欲しくなる人が多いんかな(笑<br>
 つまり、生産品がだぶつきそうな12月ごろが買い時か？<br>
 
-<img src="../images/shyokusenkiyosoku.png" width="80%"> 
+<img src="../images/syokusenkiyosoku.png" width="80%"> 
 <br>
 
 以下、ソースコードです。確認用の行も残ったままなので、参考までにという感じです。悪しからず<br>
@@ -134,7 +134,7 @@ plt.legend()
 ```
 ここまでで、以下の図となります。<br>
 
-<img src="../images/shyokusenki1.png" width="80%"> 
+<img src="../images/syokusenki1.png" width="80%"> 
 <br>
 MAPEは4.6パーセント。まずまずです。<br>
 <br>
@@ -218,7 +218,7 @@ print(mean_absolute_percentage_error(df_train.y, train_pred))
 
 結果MAPEはMAPEは4.0パーセント。若干精度が上がりました<br>
 図はこんな感じ。<br>
-<img src="../images/shyokusenki2.png" width="80%"> 
+<img src="../images/syokusenki2.png" width="80%"> 
 <br>
 RMSE:<br>
 3721.6224253275905<br>
