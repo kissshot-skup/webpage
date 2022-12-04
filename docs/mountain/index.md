@@ -99,8 +99,8 @@ title: 山に登ろう！
 <br>
 ここで見た景色。雲の上の世界は本当に感動的でした。<br>
 下界では見られない流れ星も3000m以上の場所からみるとたくさん見えました。<br>
-<img src="../images/fuhi1.png" width="80%"><br>
-<img src="../images/fuhi2.png" width="80%"><br>
+<img src="../images/fuji1.png" width="80%"><br>
+<img src="../images/fuji2.png" width="80%"><br>
 
 今日はここら辺まで。また機会があれば詳しく書いていきたいと思います。<br>
 <br>
