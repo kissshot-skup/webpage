@@ -22,7 +22,8 @@
 ②172.16.0.0 ～ 172.31.255.255		（172.16.0.0/12）
 ③192.168.0.0 ～ 192.168.255.255	（192.168.0.0/16）
 
-基本知識なため①～③はクラス分類によって定義されている（復習）
+基本知識（復習）
+①～③はクラス分類によって定義されている
 クラスA：頭が0 		0xxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
 		アドレス範囲が0.0.0.0～127.255.255.255
 クラスB：頭が10		10xxxxxx xxxxxxxx xxxxxxxx xxxxxxxx
@@ -30,9 +31,11 @@
 クラスC：頭が110	110xxxxx xxxxxxxx xxxxxxxx xxxxxxxx
 		アドレス範囲が192.0.0.0～223.255.255.255
 
-
 ＜参考＞
 https://atmarkit.itmedia.co.jp/ait/articles/0301/17/news003.html
+
+覚えにくかったのですが、これを見て少し覚えました
+https://mophie-blog.com/2022/02/18/how_to_remember_ip_class_global_and_private/
 
 更に豆知識
 
