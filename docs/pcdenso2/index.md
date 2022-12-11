@@ -21,9 +21,9 @@ title: 2台のPCを繋いでパケットの中身を見てみよう
 - MACアドレス、IPアドレスの確認と設定
 - wireshark, ipsendwinの使い方
 ```
+ <br>
 
 ----
- <br>
 ■準備<br>
 ・PC2台<br>
 ・LAN‐USBアダプター（最近のPCは薄型のため、LAN端子がないためアダプターを2台用意。会社から勝手に借用…）<br>
@@ -39,15 +39,18 @@ title: 2台のPCを繋いでパケットの中身を見てみよう
 [https://www.vector.co.jp/soft/win95/net/se363834.html](https://www.vector.co.jp/soft/win95/net/se363834.html)
 <br>
 <br>
+
 ----
+
 ■接続構成<br>
 下図のような構成を構築。ただ上記を繋いだだけです。<br>
 事前にPCに各アプリをインストールしておきましょう。<br>
 <img src="../images/kousei.png" width="50%"> 
 <br>
 <br>
+
 ----
-<br>
+
 ■さっそく通信テスト！<br>
 ここから本番です。<br>
 まず、パケットの送り先と送り元を確認しましょう。<br>
@@ -71,12 +74,12 @@ wiresharkを見ても、pingコマンドは受信していない様子。<br>
 [https://chirorin.hatenadiary.com/entry/2021/06/20/134823](https://chirorin.hatenadiary.com/entry/2021/06/20/134823)
 <br>
 上記記事の設定で再度Pingを打つと通りました。<br>
-wiresharkでも検知しています。<br>
+wiresharkでも検知しています。
+<br>
+<br>
 
-<br>
-<br>
 ----
-<br>
+
 ■好きなパケットを流してみよう<br>
 通信確認がとれたので、パケットを流してみます。<br>
 ipsendwinを起動します。<br>
@@ -105,9 +108,9 @@ PC2のwiresharkでUDPを受信したことを確認できました。<br>
 <br>
 逆（PC2⇒PC1）もまたしかり。<br>
 <br>
-<br>
+
 ----
-<br>
+
 ■最後に<br>
 MACやIPアドレスの設定が間違っていたりすると通信できません。<br>
 ipconfig/allでイーサネットとは違う項目のipなどを見て入力すると、届かなかったりします。<br>
