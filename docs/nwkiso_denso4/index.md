@@ -132,7 +132,9 @@ IPアドレスの設定ができない（またはIPアドレスの設定が保�
 <br>
 2.Cookie<br>
 サーバ→webアプリへSet-CookieヘッダによりHTTP Cookieを発行する。プログラミングの手間が少ない利点はあるが、リクエストフォージェリ―攻撃*1、クロスサイトスクリプティング攻撃*2の標的になりやすい<br>
+
 [*1](https://www.ipa.go.jp/security/vuln/websecurity-HTML-1_6.html)<br>
+
 [*2](https://www.ubsecure.jp/blog/cross-site-scripting)<br> 
 <br>
 3.hiddenフィールド<br>
