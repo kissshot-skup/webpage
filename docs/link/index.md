@@ -26,6 +26,7 @@ title: LINK集
 -[ネットワーク基礎知識#1](https://kissshot-skup.github.io/webpage/nwkiso_denso/)<br>
 -[ネットワーク基礎知識#2](https://kissshot-skup.github.io/webpage/nwkiso_denso2/)<br>
 -[ネットワーク基礎知識#3](https://kissshot-skup.github.io/webpage/nwkiso_denso3/)<br>
+-[ネットワーク基礎知識#4](https://kissshot-skup.github.io/webpage/nwkiso_denso4/)<br>
 -[ネットワーク基礎実験](https://kissshot-skup.github.io/webpage/pcdenso/)<br>
 <br>
 ■エンジニアリング（Web関係）<br>
