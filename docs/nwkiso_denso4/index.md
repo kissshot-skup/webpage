@@ -134,8 +134,8 @@ IPアドレスの設定ができない（またはIPアドレスの設定が保�
 2.Cookie<br>
 サーバ→webアプリへSet-CookieヘッダによりHTTP Cookieを発行する。プログラミングの手間が少ない利点はあるが、リクエストフォージェリ―攻撃*1、クロスサイトスクリプティング攻撃*2の標的になりやすい<br>
 
-[*1リンク](https://www.ipa.go.jp/security/vuln/websecurity-HTML-1_6.html)
-[*2リンク](https://www.ubsecure.jp/blog/cross-site-scripting)
+[1リンク](https://www.ipa.go.jp/security/vuln/websecurity-HTML-1_6.html)<br>
+[2リンク](https://www.ubsecure.jp/blog/cross-site-scripting)
 <br>
 3.hiddenフィールド<br>
 サーバ→webアプリへ送るHTMLソース内にフォームを儲け、hiddenフィールドにセッションIDを埋め込む。3つの中で攻撃を受けにくい。ページ遷移をすべてフォームで記述する必要があり、自然なハイパーリンクの実現にはJaveScriptの使用が必須となる。<br>
