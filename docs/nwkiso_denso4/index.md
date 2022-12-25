@@ -35,8 +35,9 @@ title: 【情報処理】ネットワーク基礎知識のメモ4
 ・最近はコンテナ型もあり。アプリケーションを実行するための領域（ユーザ空間）を複数に分割して利用する方法。ホストOSの上にDocker Engine（例えばDocker（クジラの絵のエンジン））があり、その上にゲストOSなしにアプリケーションが構築できる。<br>
 <br>
 以下イメージ図を見ながらが分かりやすいかも<br>
-(https://academy.gmocloud.com/vps/20211228/13893)[https://academy.gmocloud.com/vps/20211228/13893]<br>
-(https://cn.teldevice.co.jp/column/10509/)[https://cn.teldevice.co.jp/column/10509/]<br>
+
+[https://academy.gmocloud.com/vps/20211228/13893](https://academy.gmocloud.com/vps/20211228/13893)<br>
+[https://cn.teldevice.co.jp/column/10509/](https://cn.teldevice.co.jp/column/10509/)<br>
 <br><br>
 
 ----
@@ -64,8 +65,8 @@ IPアドレスの設定ができない（またはIPアドレスの設定が保�
 ・管理する側のSNMPマネージャとされる側SNMPエージェントに別れて構成され、前者はWindowsサーバ、後者はスイッチ類が対象となる<br>
 ・CPU使用率、メモリ使用率　インターフェースのリンクアップ、ダウン状態、トラフィック量、MTUやSpeed/duplexの状態も確認可能<br>
 ・SNMPエージェントがUDP（ポート番号161）を使用して、SNMPマネージャがUDP（ポート番号162）を使用<br>
-<br>
-(https://www.infraexpert.com/study/tcpip21.html)[https://www.infraexpert.com/study/tcpip21.html]<br>
+
+[https://www.infraexpert.com/study/tcpip21.html](https://www.infraexpert.com/study/tcpip21.html)<br>
 <br>
 <br>
 
@@ -133,9 +134,8 @@ IPアドレスの設定ができない（またはIPアドレスの設定が保�
 2.Cookie<br>
 サーバ→webアプリへSet-CookieヘッダによりHTTP Cookieを発行する。プログラミングの手間が少ない利点はあるが、リクエストフォージェリ―攻撃*1、クロスサイトスクリプティング攻撃*2の標的になりやすい<br>
 
-[*1](https://www.ipa.go.jp/security/vuln/websecurity-HTML-1_6.html)<br>
-
-[*2](https://www.ubsecure.jp/blog/cross-site-scripting)<br> 
+[*1リンク](https://www.ipa.go.jp/security/vuln/websecurity-HTML-1_6.html)
+[*2リンク](https://www.ubsecure.jp/blog/cross-site-scripting)
 <br>
 3.hiddenフィールド<br>
 サーバ→webアプリへ送るHTMLソース内にフォームを儲け、hiddenフィールドにセッションIDを埋め込む。3つの中で攻撃を受けにくい。ページ遷移をすべてフォームで記述する必要があり、自然なハイパーリンクの実現にはJaveScriptの使用が必須となる。<br>
