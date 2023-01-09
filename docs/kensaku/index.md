@@ -78,7 +78,7 @@ HTMLのタグと呼ばれる構文を調べてみると以下記事がわかり�
 と分かったところで、以下に編集してHTMLに埋め込みました。<br>
 
 ```
-<form action="https://kissshot-skup.github.io/webpage/#" method="post">
+<form action="https://kissshot-skup.github.io/webpage/#" method="get">
   <input type="search" name="search" placeholder="キーワードを入力">
   <input type="submit" name="submit" value="検索">
 </form>
