@@ -3,5 +3,5 @@ title: エンジニア3人、酒と音楽と
 plugins:
  - jekyll-sitemap
 google_analytics: G-H1234VX5NE
-gems:
+plugins:
   - jekyll-sitemap
