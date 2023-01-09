@@ -1,19 +1,20 @@
 ---
-# title:検索フォームをつくろう
+title: 検索フォームをつくろう
 ---
-<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2844921131740253"
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2844921131740253"
      crossorigin="anonymous"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1234VX5NE"></script>
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1234VX5NE"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-H1234VX5NE');
-</script> --> -->
+</script>
 
-<!-- ```
+```
 この記事には以下ネットワーク基礎知識が書かれています。
 - ホームページに検索フォームを追加する方法
 - HTMLの基礎的な話をおさらい（今までなんとなくでやってきたつけが…）
@@ -41,8 +42,8 @@
 	</div>
 	<input type="submit" value="検索する" />
 </form>
-``` -->
-<!-- 
+```
+
 <br>
 <br>
 
@@ -122,7 +123,7 @@ AmazonのHPのような人によっておすすめが変わったりするHPは�
 
 上記記事の方法で検索機能は実装できなくはなさそうだが、少し時間がかかりそう。 
 <br>
-<br> -->
+<br>
 
 ----
 今回はここまで<br>
