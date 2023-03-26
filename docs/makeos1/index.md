@@ -94,7 +94,7 @@ $ sudo apt update
 これは以下サイトを参考に解決<br>
 ['jp.archive.ubuntu.com' を解決できませんでしたの解決](https://hayana.work/archives/1244)<br>
 <br>
-configファイルをいじる時にvimを操作する必要があるが、私は触ったことがなかった。<br>
+尚、configファイルをいじる時にvimを操作する必要があるが、私は触ったことがなかった。<br>
 操作方法が難しいので以下サイトを参考に操作して解決<br>
 [UbuntuでVimを使ってファイルを編集する](https://7ka.org/ubuntu_terminal_vim/)<br>
 [vi の基本コマンドの一覧](https://docs.oracle.com/cd/E19253-01/816-3946/editorvi-tbl-83/index.html)<br>
