@@ -89,7 +89,6 @@
             <a class="dropdown-item" href="#" tabindex="-1" aria-disabled="true">yuishi作成記事</a>
           </div>
         </li>
-      </ul>
     </div>
   </nav>
   <!-- ナビゲーションバー ここまで20220806-->
@@ -130,6 +129,19 @@
       </div>
     </section>
     <hr>
+    <!-- ここまで 見出し部分 -->
+    <!--==============ソート機能220924==============-->
+                  <!-- ここから 検索フォーム -->
+                        <form action="https://kissshot-skup.github.io/webpage/#" method="post">
+                          <input type="search" name="search" placeholder="キーワードを入力">
+                          <input type="submit" name="submit" value="検索">
+                        </form>
+                        <!-- <input type=”text” name="query" size="30" maxlength="255" value="">
+                        <input type=”submit” name="btn" value="検索">
+                        <input type="hidden" name="hl" value="ja">
+                        <input type="hidden" name="sitesearch" value="http://www.google.co.jp/search">
+                      </form> -->
+              <!-- ここまで 検索フォーム -->
     <ul class="sort-btn">
       <li class="sort00 active">all</li>
       <li class="sort_music">music/THE YYYY</li>
@@ -145,53 +157,6 @@
         <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-col-lg-1 g-3">
           <!-- <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"> 元設定-->
           <ul class="grid">
-            <!-- ここから カードn部分 -->
-            <li class="item sort_engineer">
-              <div class="item-content">
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top"
-                      src="https://kissshot-skup.github.io/webpage/images/makeos1-2.JPG" width="100%" height="225"
-                      xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                      preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    <div class="card-body">
-                      <h3 class="font-weight-bold">OSを自作する</h3>
-                      <p class="card-text">自作OS奮闘記1 23/3/26</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                      </div>
-                      <a href="https://kissshot-skup.github.io/webpage/makeos1/"
-                        class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>             
-            <!-- ここから カードn部分 -->
-            <li class="item sort_engineer">
-              <div class="item-content">
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top"
-                      src="https://kissshot-skup.github.io/webpage/images/kensaku1.png" width="100%" height="225"
-                      xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                      preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    <div class="card-body">
-                      <h3 class="font-weight-bold">検索窓を作りたい</h3>
-                      <p class="card-text">HTML奮闘記 23/1/09</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                      </div>
-                      <a href="https://kissshot-skup.github.io/webpage/kensaku/"
-                        class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li> 
-            <!-- ここまで カードｍ部分 --> 
             <!-- ここから カードl部分 -->
             <li class="item sort_engineer">
               <div class="item-content">
@@ -594,7 +559,7 @@
                     <p class="card-text">GitHub Pagesの機能を使ってWEB制作をしている環境です</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
-                    <a href="https://kissshot-skup.github.io/webpage/GitHub_Page/"
+                    <a href="https://kissshot-skup.github.io/webpage/"
                       class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>GitHub</a>
                   </div>
                 </div>
