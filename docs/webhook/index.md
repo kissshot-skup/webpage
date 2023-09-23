@@ -208,7 +208,7 @@ const getDeviceId = (jsonObject) => {
 上記で紹介したURLを参考にコンソールのテストツールでもテストできますが<br>
 実際に他のサイトからwebhookを受けてみたいと思いました。以下を試しました。<br>
 <br>
-[WebブラウザでAPIを投げることができる](chrome-extension://aejoelaoggembcahagimdiliamlcdmfm/index.html#requests)<br>
+[WebブラウザでAPIを投げることができる](https://chrome.google.com/webstore/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm?hl=ja)<br>
 インストールしたりするのが大変だと思ったので調べてみると、Google Chromeの拡張機能で便利なものがありました。非常に使いやすく、1分くらいで使えちゃいます。<br>
 API Gatewayで作ったエンドポイントを入力して、適当にBodyを書いて、POSTするだけです。<br>
 操作画面は、以下の写真のような感じです。
