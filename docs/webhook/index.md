@@ -213,7 +213,7 @@ const getDeviceId = (jsonObject) => {
 API Gatewayで作ったエンドポイントを入力して、適当にBodyを書いて、POSTするだけです。<br>
 操作画面は、以下の写真のような感じです。
 <br>
-<img src="../images/webhook2.png" width="80%"><br>
+<img src="../images/webhooktest.png" width="80%"><br>
 ※Bodyの内容が間違ってたり、エンドポイントを誤っているとサーバーエラーが出てしまいます<br><br>
 
 また、Webhookは色々なところで標準対応しているので、手短なところとしてGithubのWebhook通知との連携を試してみました。以下サイトを参考にしました<br>
