@@ -5,3 +5,5 @@ plugins:
 google_analytics: G-H1234VX5NE
 plugins:
   - jekyll-sitemap
+show_downloads: false
+github: https://kissshot-skup.github.io/webpage/
