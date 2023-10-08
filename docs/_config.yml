@@ -3,6 +3,5 @@ title: THE YYYY(ザ・イヤーズ)ブログ
 plugins:
  - jekyll-sitemap
 google_analytics: G-H1234VX5NE
-show_downloads:false
 plugins:
   - jekyll-sitemap
