@@ -1,0 +1,30 @@
+＜bootstrapの参考良サイトまとめ＞
+
+よく使うクラスまとめ
+https://qiita.com/nakanishi03/items/c80a16b9b9796c25f890
+
+colの使い方　←触りながら理解できる！！！
+https://codepen.io/clue-design/pen/dmByzZ
+
+実例集　←こっからスタイルを選ぶのは大有り
+https://v4.bootstrap-guide.com/example
+
+レイアウト関連のコマンド
+https://www.tohoho-web.com/bootstrap5/layout.html
+
+card表示のシャドーのつけ方
+https://getbootstrap.jp/docs/4.1/utilities/shadows/
+
+＜Github pages関連＞
+github-pagesが対応しているテーマ
+https://pages.github.com/themes/
+
+github-pagesのデフォルトテーマを変更する場合
+http://jekyllrb-ja.github.io/docs/themes/#%E3%83%86%E3%83%BC%E3%83%9E%E3%82%92%E3%83%94%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97
+
+caymanテンプレートについてreadme
+https://github.com/pages-themes/cayman/blob/master/README.md
+
+<HTML>
+VScodeショートカットキー
+Sift＋ alt + f :コード整形
