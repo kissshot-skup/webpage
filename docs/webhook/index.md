@@ -43,10 +43,11 @@ AWSでその受け皿をつくることができたのでその軌跡を書く <
 [WebhookのWeb APIとの違い 〜イベントと通信に着目してみた〜](https://qiita.com/kuwazzy/items/fdf363cc1caee9a23686)<br>
 [データ連携(Webhook)](https://webiot.io/docs/console/datalinkage/)
 <br><br>
-まとめると、webhookは<br>
+まとめると、webhookは“広義のWeb API”(＝以下、HTTP通信を主体としたインターフェース)<br>
 　・http(s) GET　<br>
 　・http(s) POST　<br>
-の組み合わせを使ってイベント駆動で情報を送受信することがわかりました。<br>
+の一種であり、特にWebhookは、イベント駆動で情報を通知（＝POST）するものということがわかりました。<br>
+つまり、情報をGETで得たりせず、イベント発生時に、相手システムにPOSTして情報を伝達するものという理解です。<br>
 <br>
 ボディと呼ばれる、HTTPの中身に情報をいれて送受信しますが<br>
 JSONと呼ばれる形式で書くのが一般的なようです。<br>
