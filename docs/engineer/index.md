@@ -124,6 +124,10 @@ Quittaで人生の進路について語っている人がいないか、ちょ�
 [3 日々息をするようにアウトプットしている人は何を意識しているのか？](https://qiita.com/satomihoya/items/876dea7dd7a4c90c140a)
 <br>
 
+[4 質とスピード（2022春版、質疑応答用資料付き） / Quality and Speed 2022 Spring Edition](https://speakerdeck.com/twada/quality-and-speed-2022-spring-edition)
+<br>
+質とスピードは表裏関係ではない…ぐぬぬ。確かにそうだ。しかも、およそ1カ月以内に自分たちにしわ寄せが返ってくるというのも恐ろしい話。<br>
+付録の資料もかなり面白かった。<br>
 <br><br>
 
 ----
