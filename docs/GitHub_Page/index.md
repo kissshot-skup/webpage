@@ -114,6 +114,9 @@ title: GitHub PageによるHP公開方法について
   Markdown記法（タイトル、太字、斜体他）
 - [Markdown記法](https://notepm.jp/help/how-to-markdown)
 
+  JavaScriptをHTML上で記述する
+- [HTMLファイルに直接JavaScriptのコードを記述する](https://www.javadrive.jp/javascript/before/index2.html)
+
 
 ----
 
