@@ -29,7 +29,7 @@ title: 【情報処理】ネットワーク基礎知識のメモ5
 <br>
 
 ----
-■TLS(Transport Layer Security)<br>
+### ■TLS(Transport Layer Security)<br>
 ・SSLのこと。SSL3.0→バージョンアップしてTLSとなった安全性の高い通信を行うプロトコル<br>
 ・一般的には「SSL」や「SSL/TLS」のような表現<br>
 ・公開鍵認証や共通鍵暗号、ハッシュ化などの機能を提供<br>
@@ -38,7 +38,7 @@ title: 【情報処理】ネットワーク基礎知識のメモ5
 
 ----
 
-■サーバ稼働率の考え方<br>
+### ■サーバ稼働率の考え方<br>
 ・直列接続と並列接続がある<br>
 ・考え方は以下のとおり<br>
 <br>
@@ -54,7 +54,7 @@ Bシステム稼働率：y<br>
 <br><br>
 
 ----
-■DNS、DNSレコード<br>
+### ■DNS、DNSレコード<br>
 ・IPアドレスとドメイン名(google.comなど)を紐づけてくれるシステム<br>
 ・DNSサーバには役割が違うものが2つあり、以下①②。<br>
 ```
@@ -97,7 +97,7 @@ DNS amp攻撃<br>
 <br>
 <br>
 ----
-■SMTP(Simple Mail Transfer Protocol) POP(Post Office Protocol)<br>
+### ■SMTP(Simple Mail Transfer Protocol) POP(Post Office Protocol)<br>
 ・SMTP:メール送信プロトコル<br>
 ・POP：メール受信プロトコル（ポストオフィス＝郵便局プロトコル）<br>
 ・いずれもOSI参照モデル第7層アプリケーション層のプロトコル<br>
@@ -130,14 +130,14 @@ POP before SMTPの利点は、POP3ができるシステムである端末であ�
 [メールのやり取りをキャプチャみよう](https://www.itbook.info/network/pop3.html)<br>
 
 ----
-■OpenFlowとSDN<br>
+### ■OpenFlowとSDN<br>
 ・SDN：Software Defined Network：単一のソフトウェアによりネットワーク機器を集中的に制御して、ネットワーク構成や設定などを柔軟＆動的に変更可能にする技術の総称<br>
 ・機器の「データ転送機能」と「制御機能」を分離して、制御機能をもつソフトウェア（SDNコントローラと呼ぶ）が集中管理をする体系<br>
 ・OpenFlowとは、SDNを実現する技術の1つ。Google等が参加する団体ONF(Open Networking Foundation)が標準化を進めている<br>
 <br>
 <br>
 ----
-■プロキシサーバ<br>
+### ■プロキシサーバ<br>
 ・Webブラウザ（Googleなど）であるホームページを閲覧したい場合に、Webサーバへ問合せを行うが、この時に仲介してくれるサーバ。<br>
 ・メリットは、身元を隠せることと、キャッシュを上手く使えばアクセスが早くなること<br>
 ・リバースプロキシは、Webサーバ側におかれるプロキシサーバのこと（リバース：逆）。外部インターネットからサーバへアクセスされる通信を中継する。Webサーバの身元を隠せる上、負荷分散に貢献する。<br>
@@ -148,7 +148,7 @@ POP before SMTPの利点は、POP3ができるシステムである端末であ�
 [リバースプロキシとプロキシの違いとは？それぞれのサーバーの仕組みは？](https://eset-info.canon-its.jp/malware_info/special/detail/201021.html#:~:text=%E3%81%93%E3%82%8C%E3%81%BE%E3%81%A7%E8%A6%8B%E3%81%A6%E3%81%8D%E3%81%9F,%E3%81%AE%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%82%92%E4%B8%AD%E7%B6%99%E3%81%99%E3%82%8B%E3%80%82l)<br>
 
 ----
-■WebDAV(Web-based Distributed Authoring and Versioning)<br>
+### ■WebDAV(Web-based Distributed Authoring and Versioning)<br>
 ・HTTPを拡張したプロトコルを使用して、Webサーバ上のファイルを管理する仕組み<br>
 ・メリットは、FTPと比較してブラウザ上で操作できることやSSLによるセキュアな通信コネクションを使用できること<br>
 ・ファイアウォールなどでFTPが使用できない場合に使用する<br>
@@ -157,7 +157,7 @@ POP before SMTPの利点は、POP3ができるシステムである端末であ�
 
 <!--ひな型
 ----
-■<br>
+### ■<br>
 ・<br>
 ・<br>
 ・<br>

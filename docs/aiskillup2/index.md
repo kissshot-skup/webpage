@@ -21,14 +21,14 @@ title: Python初心者が時系列データの学習2
 - 気象庁のデータから気温予測してみる
 ```
 ----
-■環境の準備他<br>
+### ■環境の準備他<br>
 前回の記事を参考にして環境を構築してみましょう。<br>
 [前回の記事](https://kissshot-skup.github.io/webpage/aiskillup/) 
  <br>
  <br>
 
 ---- 
-■データセットの用意<br>
+### ■データセットの用意<br>
 気象庁から月間の平均気温データを取得しました。 <br>
 [気象庁HP](https://www.data.jma.go.jp/obd/stats/etrn/view/monthly_s3.php?prec_no=62&block_no=47772) <br>
 今回は2014年1月から2021年12月までのデータを使用します。 <br>
@@ -94,7 +94,7 @@ forecast.to_csv("output.csv")
  <br>
 
 ----
-■今後やっていきたいこと <br>
+### ■今後やっていきたいこと <br>
 prophetで使う関数の数学的意味も理解しないといけないと思っています。<br>
 下記記事で紹介してくれていて、とても参考になりそうです。理解を深めていきます<br>
 [数式説明](https://devblog.thebase.in/entry/2019/12/20/110000_1) 

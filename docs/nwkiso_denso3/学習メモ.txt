@@ -1,9 +1,9 @@
-■Active Directory
+### ■Active Directory
 ・IDやパスワード管理を行う概念
 ・アクセス権限の設定と管理ができる
 イメージ:Active Directoryを使えば、出張などでどこにいっても場所を選ばず会社システムにアクセスできるようになる
 
-■DHCP（Dynamic Host Configuration Protocol）
+### ■DHCP（Dynamic Host Configuration Protocol）
 ・サーバ
 ・DHCPサーバ⇒スイッチ⇒各PC（DHCPクライアント）の構成で、DHCPサーバによってクライアントはIPアドレス、サブネットマスク、デフォルトゲートウェイなどパラメータを自動的に取得可能となる
 ・上記パラメータはリース（デフォルト24時間）される
@@ -13,7 +13,7 @@
 　3：REQUEST（クライアント⇒サーバへIPアドレスを受け入れる意思を示す）
 　4：ACK（サーバ⇒クライアントへクライアントの要求に応答する）
 
-■NAT Network address Transtration
+### ■NAT Network address Transtration
 ・ルータに設定するもの
 ・ルータがインターネットに出ていくときにプライベートなIPアドレスをグローバルなIPアドレスに変換する
 
@@ -50,7 +50,7 @@ https://mophie-blog.com/2022/02/18/how_to_remember_ip_class_global_and_private/
 ブラウザのアドレスバーにhttp://127.0.0.1などと入力してアクセスする
 
 
-■NATの種類
+### ■NATの種類
 ①スタティックNAT
 　変則規則が永続的に登録される。
 　組織が外部NWに対してWebやFTPサーバなどを公開する目的で使用
@@ -66,10 +66,10 @@ https://mophie-blog.com/2022/02/18/how_to_remember_ip_class_global_and_private/
 　例）ローカルユーザ10.1.1.2：ポート番号50000と10.1.1.1：51000のユーザがいた場合、前者はグローバルアドレス1.1.1.1：50000、後者は1.1.1.1：51000を使う
 
 
-■DHCPサーバの役割
+### ■DHCPサーバの役割
 ・ユーザのPC（クライアント）にIPアドレスを払い出す。
 
-■VLAN
+### ■VLAN
 ルータなしでスイッチのポート毎にネットワークを分けることができる。
 例えば、スイッチのポート1～3をVLAN1、ポート4～6をVLAN2と設定すれば、VLAN1と2で個別のネットワークとなる。
 通常、スイッチは受け取ったパケットを全ポートへ転送（フラッティング）するが、VLANを分けていれば、転送するネットワークを絞ることがえでき、転送効率が向上する。
@@ -78,7 +78,7 @@ https://mophie-blog.com/2022/02/18/how_to_remember_ip_class_global_and_private/
 
 ※デフォルト設定ではすべてのポートがVLAN1に所属している
 
-■VLANの種類
+### ■VLANの種類
 ①アクセスポート
 　1つのI/Fに1つのVLANを設定する方式
 
@@ -92,7 +92,7 @@ https://mophie-blog.com/2022/02/18/how_to_remember_ip_class_global_and_private/
 対向機器のポートとネゴシエーションを行うようになっている。
 autoの設定の場合、対向先の設定に合わせる（トランク設定ならトランクポートになる）
 
-■ルータオンアスティック（Router on a stick）
+### ■ルータオンアスティック（Router on a stick）
 本来はVLANが増えるたびにルータから別のLANを這わせる必要があるが、拡張性がなくなるので、1本のLANで複数のVLANと区別するための方式。
 
 VLAN1のIPが192.168.1.0/24
@@ -111,7 +111,7 @@ VLAN2のIPが192.168.5.0/24
 https://www.infraexpert.com/study/vlanz8.html
 
 
-■ルータとL3スイッチの違い
+### ■ルータとL3スイッチの違い
 改めてL2、L3、L4スイッチの違いが気になった。
 そして、なんとなくL3スイッチはルータ相当というイメージがあるが、違いは何か気になった。
 
@@ -135,7 +135,7 @@ L4スイッチ：IPアドレス以外にTCP／UDPのポート番号による中�
 https://qiita.com/yoyoyo_pg/items/fef3ddeb05989d03bbef
 
 
-■VLANタグベース以外の優先度制御
+### ■VLANタグベース以外の優先度制御
 DSCP：Differentiated Services Code Point
 パケット内IPヘッダ内のToSフィールド6bitで優先度を制御する
 https://www.itbook.info/study/qos11.html

@@ -25,8 +25,7 @@ title: 【情報処理】AWSでwebhookの受信＆メール通知を実装する
 ```
 
 ----
- <br>
-■モチベーション <br>
+### ■モチベーション <br>
 客先システム導入時に担当者から「ある処理の完了通知をwebhookで投げることができる」 <br>
 と連絡をうけた。webhookとは何かから勉強することになったが<br>
 AWSでその受け皿をつくることができたのでその軌跡を書く <br>
@@ -38,7 +37,7 @@ AWSでその受け皿をつくることができたのでその軌跡を書く <
 <br><br>
 
 ----
-■webhookをもう少し詳しく<br>
+### ■webhookをもう少し詳しく<br>
 以下資料がわかりやすかったです↓ <br><br>
 [WebhookのWeb APIとの違い 〜イベントと通信に着目してみた〜](https://qiita.com/kuwazzy/items/fdf363cc1caee9a23686)<br>
 [データ連携(Webhook)](https://webiot.io/docs/console/datalinkage/)
@@ -75,7 +74,7 @@ JSONと呼ばれる形式で書くのが一般的なようです。<br>
 ```
 
 ----
-■webhookを実装する<br>
+### ■webhookを実装する<br>
 AWSでwebhookを受信し自分にメール通知する仕組みを作ってみる。<br>
 まず結論から、こんな構成で作成しました。<br>
 <img src="../images/webhook.png" width="80%"><br>
@@ -94,7 +93,7 @@ Amazon SNSは、Lambdaで作成したデータを本文として、Emailに通�
 
 
 ----
-■Lambda関数のソースサンプル
+### ■Lambda関数のソースサンプル
 pythonの方が慣れていますが、上記参考サイトがjavascript形式でしたので見よう見まねで書いてみました。<br>
 初めてなので、色々とおかしいところあるかもしれません<br>
 
@@ -205,7 +204,7 @@ const getDeviceId = (jsonObject) => {
 
 
 ----
-■テスト方法	　　<br>
+### ■テスト方法	　　<br>
 上記で紹介したURLを参考にコンソールのテストツールでもテストできますが<br>
 実際に他のサイトからwebhookを受けてみたいと思いました。以下を試しました。<br>
 <br>

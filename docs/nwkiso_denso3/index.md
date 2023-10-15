@@ -27,14 +27,14 @@ title: 【情報処理】ネットワーク基礎知識のメモ3
 ----
 今回もネットワークの基礎をまとめていきます。<br>
 <br>
-■Active Directory<br>
+### ■Active Directory<br>
 ・IDやパスワード管理を行う概念<br>
 ・アクセス権限の設定と管理ができる<br>
 イメージ:Active Directoryを使えば、出張などでどこにいっても場所を選ばず会社システムにアクセスできるようになる<br>
 <br>
 
 ----
-■DHCP（Dynamic Host Configuration Protocol）<br>
+### ■DHCP（Dynamic Host Configuration Protocol）<br>
 ・サーバ<br>
 ・DHCPサーバ⇒スイッチ⇒各PC（DHCPクライアント）の構成で、DHCPサーバによってクライアントはIPアドレス、サブネットマスク、デフォルトゲートウェイなどパラメータを自動的に取得可能となる<br>
 ・上記パラメータはリース（デフォルト24時間）される<br>
@@ -49,7 +49,7 @@ title: 【情報処理】ネットワーク基礎知識のメモ3
 
 ----
 
-■NAT Network address Transtration<br>
+### ■NAT Network address Transtration<br>
 ・ルータに設定するもの<br>
 ・ルータがインターネットに出ていくときにプライベートなIPアドレスをグローバルなIPアドレスに変換する<br>
 <br>
@@ -92,7 +92,7 @@ title: 【情報処理】ネットワーク基礎知識のメモ3
 <br>
 
 ----
-■NATの種類<br>
+### ■NATの種類<br>
 ①スタティックNAT<br>
 変則規則が永続的に登録される。<br>
 組織が外部NWに対してWebやFTPサーバなどを公開する目的で使用<br>
@@ -112,13 +112,13 @@ NATテーブルに、ポート番号も含めて登録しておくことで、�
 <br>
 
 ----
-■DHCPサーバの役割<br>
+### ■DHCPサーバの役割<br>
 ・ユーザのPC（クライアント）にIPアドレスを払い出す。<br>
 <br>
 
 ----
 
-■VLAN<br>
+### ■VLAN<br>
 ルータなしでスイッチのポート毎にネットワークを分けることができる。<br>
 例えば、スイッチのポート1～3をVLAN1、ポート4～6をVLAN2と設定すれば、VLAN1と2で個別のネットワークとなる。<br>
 通常、スイッチは受け取ったパケットを全ポートへ転送（フラッティング）するが、VLANを分けていれば、転送するネットワークを絞ることがえでき、転送効率が向上する。<br>
@@ -130,7 +130,7 @@ NATテーブルに、ポート番号も含めて登録しておくことで、�
 <br>
 
 ----
-■VLANの種類<br>
+### ■VLANの種類<br>
 ①アクセスポート<br>
 1つのI/Fに1つのVLANを設定する方式<br>
 <br>
@@ -145,7 +145,7 @@ autoの設定の場合、対向先の設定に合わせる（トランク設定�
 <br>
 
 ----
-■ルータオンアスティック（Router on a stick）<br>
+### ■ルータオンアスティック（Router on a stick）<br>
 本来はVLANが増えるたびにルータから別のLANを這わせる必要があるが、拡張性がなくなるので、1本のLANで複数のVLANと区別するための方式。<br>
 <br>
 VLAN1のIPが192.168.1.0/24<br>
@@ -164,7 +164,7 @@ VLAN2のIPが192.168.5.0/24<br>
 [参考HP](https://www.infraexpert.com/study/vlanz8.html) 
 <br>
 <br>
-■ルータとL3スイッチの違い<br>
+### ■ルータとL3スイッチの違い<br>
 改めてL2、L3、L4スイッチの違いが気になった。<br>
 そして、なんとなくL3スイッチはルータ相当というイメージがあるが、違いは何か気になった。<br>
 <br>
@@ -191,7 +191,7 @@ L4スイッチ：IPアドレス以外にTCP／UDPのポート番号による中�
 [参考HP](https://qiita.com/yoyoyo_pg/items/fef3ddeb05989d03bbef) 
 <br>
 <br>
-■VLANタグベース以外の優先度制御<br>
+### ■VLANタグベース以外の優先度制御<br>
 DSCP：Differentiated Services Code Point<br>
 パケット内IPヘッダ内のToSフィールド6bitで優先度を制御する<br>
 [参考HP](https://www.itbook.info/study/qos11.html) 

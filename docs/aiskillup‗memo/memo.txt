@@ -1,10 +1,10 @@
 時系列データの学習
 
-■私的要望
+### ■私的要望
 ・Anacondaを使用する
 ・prophetのライブラリを使いたい
 
-■環境
+### ■環境
 めちゃくちゃ時間がかかった。エラーが出まくった。
 ここでつまづく人が多いと思う。以下参考になれば。
 
@@ -26,7 +26,7 @@ NewからPython3クリックで新規ファイルを作成すればよい
 ※もちろんPythonのプロンプトで実行でも同様の処理が可能。
 
 
-■時系列データ解析テスト
+### ■時系列データ解析テスト
 https://www.salesanalytics.co.jp/datascience/datascience091/
 
 上記でつまづいたところ
@@ -46,7 +46,7 @@ https://qiita.com/ishiken3/items/71f1d354b3119ae6c09f
 ・詳細にパラメータチューニングするなら
 https://amateur-engineer-blog.com/getting-started-prophet/
 
-■その他初心者的に悩んだところ
+### ■その他初心者的に悩んだところ
 ★パッケージのインストール時に、色々やり方があること
 例えば
 ①pip ～

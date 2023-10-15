@@ -15,13 +15,13 @@ title: LINK集
 
 ----
 
-■資格・勉強法<br>
+### ■資格・勉強法<br>
 -[AWSの資格取得時の体験記](https://kissshot-skup.github.io/webpage/AWS_SAA/)<br>
 -[勉強メソッドその1](https://kissshot-skup.github.io/webpage/studyplus/)<br>
 -[勉強メソッドその2](https://kissshot-skup.github.io/webpage/study_twitter/)<br>
 <br>
 
-■エンジニアリング（通信関係）<br>
+### ■エンジニアリング（通信関係）<br>
 -[ネットワーク設計#1](https://kissshot-skup.github.io/webpage/qos/)<br>
 -[ネットワーク基礎知識#1](https://kissshot-skup.github.io/webpage/nwkiso_denso/)<br>
 -[ネットワーク基礎知識#2](https://kissshot-skup.github.io/webpage/nwkiso_denso2/)<br>
@@ -29,22 +29,22 @@ title: LINK集
 -[ネットワーク基礎知識#4](https://kissshot-skup.github.io/webpage/nwkiso_denso4/)<br>
 -[ネットワーク基礎実験](https://kissshot-skup.github.io/webpage/pcdenso/)<br>
 <br>
-■エンジニアリング（Web関係）<br>
+### ■エンジニアリング（Web関係）<br>
 -[GitHub Pagesの機能を使ってWEB制作](https://kissshot-skup.github.io/webpage/GitHub_Page/)
 <br>
 <br>
-■エンジニアリング（機械学習・AI・データ分析）<br>
+### ■エンジニアリング（機械学習・AI・データ分析）<br>
 -[Python初心者が時系列データの学習](https://kissshot-skup.github.io/webpage/aiskillup/)<br>
 -[Python初心者が時系列データの学習2](https://kissshot-skup.github.io/webpage/aiskillup2/)<br>
 -[食洗器の販売台数を機械学習で予測](https://kissshot-skup.github.io/webpage/aiskillup3/)<br>
 <br>
 <br>
-■山<br>
+### ■山<br>
 -[2022年登山記録](https://kissshot-skup.github.io/webpage/mountain/)
 <br>
 <br>
 
-■その他<br>
+### ■その他<br>
 -[Podcastをはじめよう](https://kissshot-skup.github.io/webpage/podcast/)
 <br>
 ‐[自己紹介](https://kissshot-skup.github.io/webpage/jikosyoukai/)
