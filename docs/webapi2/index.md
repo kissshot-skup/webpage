@@ -1,5 +1,5 @@
 ---
-title: Web APIについて
+title: 外部Web APIをAWS Lambdaで叩いてみた
 ---
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2844921131740253"
      crossorigin="anonymous"></script>
@@ -17,23 +17,21 @@ title: Web APIについて
 
 ```
 この記事にはこんなことが書かれています。
-- web APIとは
-- REST APIとは
+- 記事紹介：Twitterの名前を5分毎に東京の天気⛅☂☃と連動させるサーバレスプログラムを書いた
+- 
 - REST APIとWeb APIの関係
 ```
 
 ----
 ### ■モチベーション <br>
 
-前回記事でWebhookを使った情報伝達方法について実装してみたりしました。 <br>
-[【情報処理】AWSでwebhookの受信＆メール通知を実装する（API Gateway＋Lambda）](https://kissshot-skup.github.io/webpage/webhook/)<br>
+前回記事でWebhookを使った情報伝達方法について実装したり、Web APIについて深堀してみたりしました。 <br>
+[1.【情報処理】AWSでwebhookの受信＆メール通知を実装する（API Gateway＋Lambda）](https://kissshot-skup.github.io/webpage/webhook/)<br>
+[2.Web APIについて](https://kissshot-skup.github.io/webpage/webapi/)<br>
 <br>
-Webhookは、イベント駆動で相手や自分から何かを発信して終わりですが<br>
-もっと色々なことをやろうとすると、情報のやり取りが必要になってきます<br>
-（相手から情報をもらってそれを処理するとか）<br>
-<br>
-なので、もう少しWebAPIなるものを深堀してみようと思いました。<br>
-<br><br>
+2つ目の記事の最後に書きましたが、今回は実践してみた紹介記事になります。<br>
+この記事を書きながら色々試していこうと思っていて、現時点で何ができるか想像もついていません…。<br>
+もし詰まって、次回！ということになっても、一緒に悩んで進めていただけたらと思っています。<br><br>
 
 ----
 ### ■WebAPIとは<br>
@@ -41,14 +39,13 @@ Webhookは、イベント駆動で相手や自分から何かを発信して終�
 [WebAPIについての説明](https://qiita.com/busyoumono99/items/9b5ffd35dd521bafce47)<br>
 [【初心者向け】APIとは？概要や活用メリット・使い方を解説](https://blog.hubspot.jp/website/api)
 <br><br>
-まとめると、
-**WebAPIは“Webサービス機能の一部として提供されているAPI”。**
-<br>
+まとめると、WebAPIは“Webサービス機能の一部として提供されているAPI”。<br>
 例えば、レストランでスタッフに料理を注文し（＝要求を渡し）たらコックが料理を作りスタッフに返す（＝加工した情報を返信する）流れにおいて、正しくやり取りが行われるように事前に取り決められた仕組み。<br>
 
 ----
 ### ■WebAPIの種類<br>
-情報の公開範囲にしたがって、以下のように分類されるようです。<br>
+WebAPIは、"Web上で公開されていて外部からプログラムの呼び出しができるAPI"という理解になるかと思います。<br>
+そして、情報の公開範囲にしたがって、以下のように分類されるようです。<br>
 ```
 - オープンAPI
 - パートナーAPI
@@ -57,17 +54,14 @@ Webhookは、イベント駆動で相手や自分から何かを発信して終�
 ```
 上記、オープンAPI（外部利用が可能なAPI）というのがイメージしやすかったので、それをベースに考えてみましょう。<br>
 ネットサーフィンをしていて以下の記事を見つけました。<br>
-**こんなにも沢山オープンAPIが世の中にあふれているんですね…**<br>
+こんなにも沢山オープンAPIが世の中にあふれているんですね…<br>
 [APIを探そう。国内外のインデックスサービスまとめ](https://developer.ntt.com/ja/blog/API%E3%82%92%E6%8E%A2%E3%81%9D%E3%81%86%E3%80%82%E5%9B%BD%E5%86%85%E5%A4%96%E3%81%AE%E3%82%A4%E3%83%B3%E3%83%87%E3%83%83%E3%82%AF%E3%82%B9%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81)
 <br>
 天気情報などを活用して〇〇するとか、いろんなことに使えそうですね。
 <br>
 <br>
-
-----
-### ■REST API<br>
 ちまたでよく聞くREST APIとは何でしょうか。
-以下サイトから要点を引用すると<br>
+以下サイトが分かりやすかったです。引用すると<br>
 
 ```
 RESTとは、広く普及したWebのインフラをそのまま利用して、
@@ -93,11 +87,10 @@ https://api.twitter.com/1.1/search/tweets.json?q=%22Windows%22
 　このように、通常のWeb呼び出しと同様にして、APIを呼び出せる手軽さが大きな特徴だ。
 ```
 
-引用元<br>
+参照<br>
 [REST](https://atmarkit.itmedia.co.jp/ait/articles/1601/13/news033.html)<br>
 
-
-そして、RESTは以下原則に基づいて実装されます。
+RESTは以下原則に基づいて実装されます。
 <br>
 ```
 1：ステートレスであること
@@ -107,18 +100,17 @@ https://api.twitter.com/1.1/search/tweets.json?q=%22Windows%22
 4：アプリケーション情報と状態遷移の両方を扱えるデータ形式の使用
 　　HTML、XML、JSON、バイナリで表現
 ```
-ステートレス（お互いの状態を気にしない）で、1方向のやり取りをする上、HTTPという一般的な通信方式を使うのでお手軽というところがポイントです。<br>
+ステートレス（お互いの状態を気にしない）で、1方向のやり取りをする上、HTTPという一般的な通信方式を使うのでお手軽というところがポイントです<br>
 <br>
 
-参照先<br>
+参照<br>
 [REST API （RESTful API）](https://www.infraexpert.com/study/sdn09.html)<br>
-
-つまり、REST APIは、Web APIを実現するために、いくつかの原則を体系立てたものという認識でよいでしょうか。<br>
+<br>
 
 ----
 ### ■REST APIとWeb APIの関係
 私だけでしょうか。REST APIとWeb APIの関係がわからなくなってきました。<br>
-ので、もう一度整理してみましょう。<br>
+もう一度整理してみましょう。<br>
 
 ```
 Web APIは、ブラウザなどの一般に利用されている基盤を経由して
@@ -131,7 +123,6 @@ RESTの原則は上記で記載した1~4の内容です。
 ```
 
 とわかったところで、また細かい疑問が・・・RESTとRESTfullって何…？<br>
-REST APIを調べていると結構見かけるんですよね、RESTfullっていう単語を…<br>
 ですが、それは以下の方が解説下さっています。結論、名詞と形容詞の関係で同じ意味と捉えて概ね問題なさそうです。
 <br>
 
