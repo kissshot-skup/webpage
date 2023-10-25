@@ -40,39 +40,45 @@ title: Web APIでbotを作ろう！
 ----
 ### ■何を作るかきめよう<br>
 まずは先人たちがどんな面白いことをやっているか検索してみました。面白いですねぇ↓ <br><br>
-[Twitterの名前を5分毎に東京の天気⛅☂☃と連動させるサーバレスプログラムを書いたら色々知らないことが出てきた話](https://qiita.com/issei_y/items/ab641746be2704db98be)<br>
-もうちょっと調べてみましたら、以下色々なAPIがあるようです。
-[個人でも使える！おすすめAPI一覧](https://qiita.com/mikan3rd/items/ba4737023f08bb2ca161)<br><br>
+‐[Twitterの名前を5分毎に東京の天気⛅☂☃と連動させるサーバレスプログラムを書いたら色々知らないことが出てきた話](https://qiita.com/issei_y/items/ab641746be2704db98be)<br><br>
+もうちょっと調べてみましたら、以下色々なAPIがあるようです。<br>
+‐[個人でも使える！おすすめAPI一覧](https://qiita.com/mikan3rd/items/ba4737023f08bb2ca161)<br><br>
 
-上記踏まえて、以下のサービスなんか作ると面白いかなと思ったりしています。<br>
-**「地域（ランダム）の出生数や経済指数などの統計情報をツイートするbot」を作成する**
-ちょっと変わってると思いますが、Open APIについて調べていて、内閣府が統計情報をAPIで提供していることを知りました。↓<br>
-[地域経済分析システムRESAS](https://resas.go.jp/#/13/13101)<br>
+上記踏まえて、以下のサービスなんか作ると面白いかなと思ったりしています。<br><br>
+**「地域（ランダム）の出生数や経済指数などの統計情報をツイートするbot」を作成する**<br><br>
+…ちょっと変わってますよね。。。😢<br>
+経緯を少しだけ語りますと、Open APIについて調べていて、内閣府が統計情報をAPIで提供していることを知りました。↓<br>
+‐[地域経済分析システムRESAS](https://resas.go.jp/#/13/13101)<br>
 
-私が住んでいる愛知県の人口ピラミッドなんかも図式化できたりします。<br>
+こんな風に私が住んでいる愛知県の人口ピラミッドなんかも図式化できたりします。<br>
 <img src="../images/jinkou.png" width="80%"><br>
 
 <br>
 
-**なんかここ20年くらい女性より男性の人口が多いんだな！？** とか、何となく面白いものが見えてこないでしょうか。<br>
+**…なんかここ20年くらい女性より男性の人口が多いんだな！？** <br>とか、何となく面白いものが見えてこないでしょうか。<br>
 
-個人的な話をすると、最近祖父が亡くなったり、子供が生まれたりと人生の始まりと終わりについて考える機会が多くて、<br>
-**「命は限りあるものだから今日はちょっとでも頑張ろう」とか「生まれてくる子供たちのためにできることなんだろうか」とかを少しでも考える機会になればなぁと思った次第です**<br>
-本当は、昨日の出生者数とか出したかったんですが、昨日今日の出来事をAPIで提供してくれるシステムはなさそう…？でした。
+個人的な話をすると、最近祖父が亡くなったり、子供が生まれたりと人生の始まりと終わりについて考える機会が多くて、<br><br>
+**「命は限りあるものだから今日はちょっとでも頑張ろう」とか<br>「生まれてくる子供たちのためにできることなんだろうか」とか<br>を少しでも考える機会**<br>
+になればなぁと思った次第です<br>
 <br>
-安直な考えでは、難易度的にも「ある内容を引っ張ってきて自動ツイートする」ことは丁度よいかなと推測しているのと、
+本当は、昨日の出生者数とか出したかったんですが<br>
+昨日今日の出来事をAPIで提供してくれるシステムはなさそう…？でした。
+<br><br>
+安直な考えでは、<br>
+難易度的にも「ある内容を引っ張ってきて自動ツイートする」ことは丁度よいかなと推測しているのと、<br>
 誰かがやった内容そのままではなくてちょっと捻りたかったというのもあり、一旦このテーマで進めてみることにします。<br>
 
 
 ----
 ### ■X（旧Twitter）でAPIを利用する際の諸々手続き<br>
 XのAPI利用は、公式の許可がいるようです。以下サイトから申請をします。<br>
-[X開発者プラットフォーム > Twitter API](https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api)
+‐[X開発者プラットフォーム > Twitter API](https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api)
 <br>
 以下のとおり有料枠もありますが、今回の利用用途にはオーバースペック、かつ、勉強のためなので基本は無料で構成したいと思います。<br>
 <br>
 <img src="../images/twitterapi.png" width="80%"><br>
 手順は以下のとおりです。<br>
+<br>
 
 **1.開発者アカウントに登録する。**<br>
 API利用の目的などを記入する必要があります。もちろん英語です…翻訳機と照らしながら確からしい英語で利用目的を記入しました。<br>
@@ -87,10 +93,11 @@ API利用の目的などを記入する必要があります。もちろん英�
 <br>
 [公式：Twitter サンプルアプリ（@TwitterDev）](https://github.com/twitterdev)
 <br>
+<br>
 
 **2.Xのbotを使うための設定をしていく**<br>
 こちらの記事が非常にわかりやすかったです。「botを動かせるようにしていく」というところを進めていきます。<br>
-[Twitter api freeでpythonを利用してbot（ボット）を作る](https://qiita.com/nekocat777/items/965a85195c4c7438e2be)
+‐[Twitter api freeでpythonを利用してbot（ボット）を作る](https://qiita.com/nekocat777/items/965a85195c4c7438e2be)
 各種情報はローカルにメモして完了しました。<br>
 <br>
 
@@ -128,9 +135,9 @@ KeyError: 'ACCESS_SECRET'
 次章にまとめておきます。<br>
 <br>
 
-＜追記：あとから知ったことを参考までに＞
+＜追記：あとから知ったことを参考までに＞<br>
 *コードで試用している「tweepy」はメンテナンスされなくなったようなので、使用するのを避けた方が良いという記事を見つけました。<br>
-[PythonでTwitter](https://qiita.com/yasudaak/items/dbd0667e7658f09714f5)
+‐[PythonでTwitter](https://qiita.com/yasudaak/items/dbd0667e7658f09714f5)
 <br>
 *上記記事で、Twitter apiの利用目的は300 words 以上で使用目的を記載とあります。
 私はそんなに書かなかったと思います。後から気づきました。<br>
@@ -139,11 +146,9 @@ KeyError: 'ACCESS_SECRET'
 ----
 ### ■認証の仕組みについて<br>
 認証の仕組みについては、以下記事を参照。<br>
-[一番分かりやすい OAuth の説明](https://qiita.com/TakahikoKawasaki/items/e37caf50776e00e733be)
-<br>
-
-[APIキー取得を解説！キーの役割・アクセストークンとの違いも](https://camp.trainocate.co.jp/magazine/howto-api-key/)
-<br>
+‐[一番分かりやすい OAuth の説明](https://qiita.com/TakahikoKawasaki/items/e37caf50776e00e733be)<br>
+‐[APIキー取得を解説！キーの役割・アクセストークンとの違いも](https://camp.trainocate.co.jp/magazine/howto-api-key/)
+<br><br>
 まとめると、<br>
 
 **API キーは、APIにアクセスするための情報で、主に「誰がそのAPIを使用しているかを特定する」もの**<br>
@@ -152,6 +157,7 @@ KeyError: 'ACCESS_SECRET'
 
 **アクセストークンは、ユーザがAPIを利用する際に発行されるキーで、ユーザー・端末の数だけアクセストークンが発行されるもの。ユーザ確認のための情報**<br>
 **APIキーは不変な情報で、アクセストークンはクライアントとサーバ間の通信で利用するもの**<br>
+
 アクセストークンについては、上記参照URLの1個めの図がわかりやすいですね。<br>
 
 
@@ -161,21 +167,18 @@ KeyError: 'ACCESS_SECRET'
 そんな大した情報ではないので、いいのだが、調べているとfirebaseを使用してアプリ開発をしている方が多くいる事に気づいた。<br>
 <br>
 
-[Webアプリ無料運営のススメ：FirebaseとNuxt(Vue)なら最強！](https://qiita.com/y_kawase/items/fb9f747d88af151f981a)<br>
-
-
-[Firebaseとは？できることや料金体系などをわかりやすく解説](https://career.levtech.jp/guide/knowhow/article/386/)<br>
-
-[あなたに最適なmBaaSはどれ？](https://press.monaca.io/atsushi/2667)<br>
+‐[Webアプリ無料運営のススメ：FirebaseとNuxt(Vue)なら最強！](https://qiita.com/y_kawase/items/fb9f747d88af151f981a)<br>
+‐[Firebaseとは？できることや料金体系などをわかりやすく解説](https://career.levtech.jp/guide/knowhow/article/386/)<br>
+‐[あなたに最適なmBaaSはどれ？](https://press.monaca.io/atsushi/2667)<br>
 <br>
 ここらへんを掘って、最適なシステムを検討していこうと思う<br>
 バックエンドの開発は次回！<br>
 <br>
 
-‐‐以下次回確認すること・メモ情報--<br>
-[Firebaseとは？できることや料金体系などをわかりやすく解説](https://career.levtech.jp/guide/knowhow/article/386/)<br>
-[地域経済分析システムRESAS](https://resas.go.jp/#/13/13101)<br>
-[RESAS API仕様書](https://opendata.resas-portal.go.jp/docs/api/v1/index.html)<br>
+＜以下次回確認すること・メモ情報＞<br>
+‐[Firebaseとは？できることや料金体系などをわかりやすく解説](https://career.levtech.jp/guide/knowhow/article/386/)<br>
+‐[地域経済分析システムRESAS](https://resas.go.jp/#/13/13101)<br>
+‐[RESAS API仕様書](https://opendata.resas-portal.go.jp/docs/api/v1/index.html)<br>
 
 
 ----
