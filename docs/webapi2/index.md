@@ -1,5 +1,5 @@
 ---
-title: 外部Web APIをAWS Lambdaで叩いてみた
+title: Web APIでbotを作ろう！
 ---
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2844921131740253"
      crossorigin="anonymous"></script>
