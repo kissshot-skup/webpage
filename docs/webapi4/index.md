@@ -26,7 +26,7 @@ title: Qittaの良記事をピックアップして毎日投稿するBotを作�
 ### ■ダイジェスト <br>
 成果物はこれ↓<br>
 [Xアカウント](https://twitter.com/kissshot_skup)<br><br>
-製作に関するダイジェスト版としてはQittaに投稿しています↓<br>
+製作に関する話（ダイジェスト版）はQittaに投稿しています↓<br>
 [Qittaの良記事をピックアップして毎日投稿するBotを作ったら、思った以上に面白い記事が見つかった話）](https://qiita.com/skup/items/a0b2495e48dace0524dc)<br>
 <br>
 このブログでは、Qitta記事よりもう少し詳細まで書かせて頂こうと思います。<br><br>
