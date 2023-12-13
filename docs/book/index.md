@@ -30,7 +30,7 @@ title: お笑い芸人 若林さんの本が面白すぎた
 若林さんって芸人（オードリー）だよな…本も書いているんだと。<br>
 <br>
 <a target="_blank" href="https://www.amazon.co.jp/gp/product/4041026148/ref=dbs_a_def_rwt_bibl_vppi_i2?&_encoding=UTF8&tag=skup07-22&linkCode=ur2&linkId=77f64c8c1408f249a7eced3de40f34c3&camp=247&creative=1211">完全版 社会人大学人見知り学部 卒業見込 (角川文庫)</a><br>
-<img src="../images/booke_waka1.jpg" width="80%"><br>
+<img src="../images/book_waka1.jpg" width="80%"><br>
 <br>
 <br>
 この本を読むと分かるんですが<br>
@@ -57,7 +57,7 @@ Amazonレビュー見たらわかると思うんですが、★も多くて、�
 <br>
 <a target="_blank" href="https://www.amazon.co.jp/%25E8%25A1%25A8%25E5%258F%2582%25E9%2581%2593%25E3%2581%25AE%25E3%2582%25BB%25E3%2583%25AC%25E3%2583%2596%25E7%258A%25AC%25E3%2581%25A8%25E3%2582%25AB%25E3%2583%2590%25E3%2583%25BC%25E3%2583%258B%25E3%2583%25A3%25E8%25A6%2581%25E5%25A1%259E%25E3%2581%25AE%25E9%2587%258E%25E8%2589%25AF%25E7%258A%25AC-%25E6%2596%2587%25E6%2598%25A5%25E6%2596%2587%25E5%25BA%25AB-25-1-%25E8%258B%25A5%25E6%259E%2597-%25E6%25AD%25A3%25E6%2581%25AD/dp/4167915820/ref=pd_ci_mcx_mh_mcx_views_0?pd_rd_w=FxuLt&amp;content-id=amzn1.sym.b7ff8ae3-d3eb-4b00-a35f-7c651f284b6c%253Aamzn1.symc.409c7fce-cbd2-4cf4-a6cb-824c258c8778&amp;pf_rd_p=b7ff8ae3-d3eb-4b00-a35f-7c651f284b6c&amp;pf_rd_r=8KCN28K567TGKKJM33MJ&amp;pd_rd_wg=Y3Lfi&amp;pd_rd_r=8cf636b4-764e-4a28-abac-8b80e3b1dc83&amp;pd_rd_i=4167915820&_encoding=UTF8&tag=skup07-22&linkCode=ur2&linkId=124086ef6023c36cd2c42b50c9215f3d&camp=247&creative=1211">表参道のセレブ犬とカバーニャ要塞の野良</a>
 <br>
-<img src="../images/booke_waka2.jpg" width="80%"><br>
+<img src="../images/book_waka2.jpg" width="80%"><br>
 
 
 こじらせている若林さんが売れて、芸能活動に勤しむ中、隙間に海外に旅立った時の紀行文です。斎藤茂太賞も受賞されています。<br>
