@@ -36,7 +36,7 @@ title: 【赤ちゃん絵本】30冊以上読み聞かせして反応Great!だ�
 このランキングが参考になるとうれしいな。<br>
 <br>
 <a target="_blank" href="https://www.amazon.co.jp/%25E3%2580%258C%25E5%25AD%25A6%25E5%258A%259B%25E3%2580%258D%25E3%2581%25AE%25E7%25B5%258C%25E6%25B8%2588%25E5%25AD%25A6-%25E4%25B8%25AD%25E5%25AE%25A4%25E7%2589%25A7%25E5%25AD%2590-ebook/dp/B00ZTXKHQ0/ref=sr_1_1?__mk_ja_JP=%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A&amp;crid=2123X7J7C2BE4&amp;keywords=%25E5%25AD%25A6%25E5%258A%259B%25E3%2581%25AE%25E7%25B5%258C%25E6%25B8%2588%25E5%25AD%25A6&amp;qid=1703752356&amp;s=books&amp;sprefix=%25E5%25AD%25A6%25E5%258A%259B%25E3%2581%25AE%25E7%25B5%258C%25E6%25B8%2588%25E5%25AD%25A6%252Cstripbooks%252C151&amp;sr=1-1&_encoding=UTF8&tag=skup07-22&linkCode=ur2&linkId=13dcac2e454d0c1e2b78c65e0978af1d&camp=247&creative=1211">■学力の経済学</a><br>
-<img src="../images/gakuryoku.jpg" width="80%" border="2">><br>
+<img src="../images/gakuryoku.jpg" width="80%"　border="2">><br>
 Kindle版は無料みたいです！
 <br>
 
@@ -168,7 +168,7 @@ Kindle版は無料みたいです！
 <br>
 <a target="_blank" href="https://www.amazon.co.jp/%25E3%2582%25B9%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%25A0%25E3%2581%25B4%25E3%2581%25B4%25E3%2581%25B4-0%25E3%2583%25BB1%25E3%2583%25BB2%25E3%2581%2595%25E3%2581%2584%25E3%2581%25AE%25E7%25B5%25B5%25E6%259C%25AC-%25E3%2582%25B9%25E3%2582%25AF%25E3%2582%25A6%25E3%2582%25A7%25E3%2582%25A2%25E3%2583%25BB%25E3%2582%25A8%25E3%2583%258B%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25B9/dp/4757562667/ref=sr_1_1?__mk_ja_JP=%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A&amp;crid=2CRKLCFPI9MRQ&amp;keywords=%25E3%2582%25B9%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%25A0%25E3%2581%25B4%25E3%2581%25B4%25E3%2581%25B4+%25E7%25B5%25B5%25E6%259C%25AC&amp;qid=1703839027&amp;s=books&amp;sprefix=%25E3%2582%25B9%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%25A0%25E3%2581%25B4%25E3%2581%25B4%25E3%2581%25B4+%25E7%25B5%25B5%25E6%259C%25AC%252Cstripbooks%252C149&amp;sr=1-1&_encoding=UTF8&tag=skup07-22&linkCode=ur2&linkId=f66b9a8eba7f051cde9bd25dc3c1fd83&camp=247&creative=1211">■スライムぴぴぴ (0・1・2さいの絵本)</a>
 <br>
-<img src="../images/pianodx.jpg" width="80%" border="2"><br>
+<img src="../images/book9.jpg" width="80%"><br>
 <br>
 <br>
 
