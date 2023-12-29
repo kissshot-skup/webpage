@@ -36,7 +36,7 @@ title: 【赤ちゃん絵本】30冊以上読み聞かせして反応Great!だ�
 このランキングが参考になるとうれしいな。<br>
 <br>
 <a target="_blank" href="https://www.amazon.co.jp/%25E3%2580%258C%25E5%25AD%25A6%25E5%258A%259B%25E3%2580%258D%25E3%2581%25AE%25E7%25B5%258C%25E6%25B8%2588%25E5%25AD%25A6-%25E4%25B8%25AD%25E5%25AE%25A4%25E7%2589%25A7%25E5%25AD%2590-ebook/dp/B00ZTXKHQ0/ref=sr_1_1?__mk_ja_JP=%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A&amp;crid=2123X7J7C2BE4&amp;keywords=%25E5%25AD%25A6%25E5%258A%259B%25E3%2581%25AE%25E7%25B5%258C%25E6%25B8%2588%25E5%25AD%25A6&amp;qid=1703752356&amp;s=books&amp;sprefix=%25E5%25AD%25A6%25E5%258A%259B%25E3%2581%25AE%25E7%25B5%258C%25E6%25B8%2588%25E5%25AD%25A6%252Cstripbooks%252C151&amp;sr=1-1&_encoding=UTF8&tag=skup07-22&linkCode=ur2&linkId=13dcac2e454d0c1e2b78c65e0978af1d&camp=247&creative=1211">■学力の経済学</a><br>
-<img src="../images/gakuryoku.jpg" width="80%" alt="" style="border:solid 5px #000000>
+<img style="border: solid 10px green;" src="../images/gakuryoku.jpg" width="80%">
 <br>
 Kindle版は無料みたいです！
 <br>
