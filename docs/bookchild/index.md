@@ -36,7 +36,7 @@ title: 【赤ちゃん絵本】30冊以上読み聞かせして反応Great!だ�
 このランキングが参考になるとうれしいな。<br>
 <br>
 <a target="_blank" href="https://www.amazon.co.jp/%25E3%2580%258C%25E5%25AD%25A6%25E5%258A%259B%25E3%2580%258D%25E3%2581%25AE%25E7%25B5%258C%25E6%25B8%2588%25E5%25AD%25A6-%25E4%25B8%25AD%25E5%25AE%25A4%25E7%2589%25A7%25E5%25AD%2590-ebook/dp/B00ZTXKHQ0/ref=sr_1_1?__mk_ja_JP=%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A&amp;crid=2123X7J7C2BE4&amp;keywords=%25E5%25AD%25A6%25E5%258A%259B%25E3%2581%25AE%25E7%25B5%258C%25E6%25B8%2588%25E5%25AD%25A6&amp;qid=1703752356&amp;s=books&amp;sprefix=%25E5%25AD%25A6%25E5%258A%259B%25E3%2581%25AE%25E7%25B5%258C%25E6%25B8%2588%25E5%25AD%25A6%252Cstripbooks%252C151&amp;sr=1-1&_encoding=UTF8&tag=skup07-22&linkCode=ur2&linkId=13dcac2e454d0c1e2b78c65e0978af1d&camp=247&creative=1211">■学力の経済学</a><br>
-<img src="../images/gakuryoku.jpg" width="80%">
+<img style="border: solid 2px lemonchiffon;" src="../images/gakuryoku.jpg" width="80%">
 <br>
 Kindle版は無料みたいです！
 <br>
@@ -50,7 +50,7 @@ Kindle版は無料みたいです！
 <br>
 <a target="_blank" href="https://www.amazon.co.jp/%25E3%2581%2599%25E3%2581%25A6%25E3%2581%258D%25E3%2581%25AA%25E3%2583%2594%25E3%2582%25A2%25E3%2583%258E%25E3%2581%2588%25E3%2581%25BB%25E3%2582%2593DX-%25E3%2581%259F%25E3%2581%25BE%25E3%2581%25B2%25E3%2582%2588%25E6%25A5%25BD%25E5%2599%25A8%25E3%2581%2582%25E3%2581%259D%25E3%2581%25B3%25E7%25B5%25B5%25E6%259C%25AC/dp/4828868739/ref=sr_1_1?__mk_ja_JP=%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A&amp;crid=22X6MWIL8TOON&amp;keywords=%25E3%2581%2599%25E3%2581%25A6%25E3%2581%258D%25E3%2581%25AA%25E3%2583%2594%25E3%2582%25A2%25E3%2583%258E%25E3%2581%2588%25E3%2581%25BB%25E3%2582%2593+DX&amp;qid=1703752551&amp;s=books&amp;sprefix=%25E3%2581%2599%25E3%2581%25A6%25E3%2581%258D%25E3%2581%25AA%25E3%2583%2594%25E3%2582%25A2%25E3%2583%258E%25E3%2581%2588%25E3%2581%25BB%25E3%2582%2593+dx%252Cstripbooks%252C223&amp;sr=1-1&_encoding=UTF8&tag=skup07-22&linkCode=ur2&linkId=36a58d9a7d8e6049dd2890a7f66fe24f&camp=247&creative=1211">■すてきなピアノDX</a>
 <br>
-<img src="../images/pianodx.jpg" width="80%"><br>
+<img style="border: solid 2px lemonchiffon;" src="../images/pianodx.jpg" width="80%"><br>
 ちょっと、皿洗いしたいときとかも、これを置いてひかせておいて作業したり、助かってます。<br>
 <br>
 また、大人も楽しいんですよね。楽譜読めなくても番号がついてて弾けちゃうんですよ。<br>
@@ -73,7 +73,7 @@ Kindle版は無料みたいです！
 とにかく反応がある絵本です。<br>
 <a target="_blank" href="https://www.amazon.co.jp/%25E3%2581%2598%25E3%2582%2583%25E3%2581%2582%25E3%2581%2598%25E3%2582%2583%25E3%2581%2582%25E3%2581%25B3%25E3%2582%258A%25E3%2581%25B3%25E3%2582%258A-%25E3%2581%25BE%25E3%2581%25A4%25E3%2581%2584%25E3%2581%25AE%25E3%2582%258A%25E3%2581%2593%25E3%2581%25AE%25E3%2581%2582%25E3%2581%258B%25E3%2581%25A1%25E3%2582%2583%25E3%2582%2593%25E3%2581%25AE%25E3%2581%25BB%25E3%2582%2593-%25E3%2581%25BE%25E3%2581%25A4%25E3%2581%2584-%25E3%2581%25AE%25E3%2582%258A%25E3%2581%2593/dp/4031024401/ref=sr_1_1?__mk_ja_JP=%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A&amp;crid=3MG3ZLJT66MLC&amp;keywords=%25E3%2581%2598%25E3%2582%2583%25E3%2581%2582%25E3%2581%2598%25E3%2582%2583%25E3%2581%2582%25E3%2581%25B3%25E3%2582%258A%25E3%2581%25B3%25E3%2582%258A&amp;qid=1703832400&amp;s=books&amp;sprefix=%25E3%2581%2598%25E3%2582%2583%25E3%2581%2582%25E3%2581%2598%25E3%2582%2583%25E3%2581%2582%25E3%2581%25B3%25E3%2582%258A%25E3%2581%25B3%25E3%2582%258A%252Cstripbooks%252C161&amp;sr=1-1&_encoding=UTF8&tag=skup07-22&linkCode=ur2&linkId=99cdb51930a2cac92be71cfc8c3d2ac6&camp=247&creative=1211">■じゃあじゃあびりびり (まついのりこのあかちゃんのほん) </a>
 <br>
-<img src="../images/book2.jpg" width="80%"><br>
+<img style="border: solid 2px lemonchiffon;" src="../images/book2.jpg" width="80%"><br>
 <br>
 あーとかうーを喋るようになったのが早かったような気がします。<br>
 <br>
@@ -87,7 +87,7 @@ Kindle版は無料みたいです！
 <br>
 <a target="_blank" href="https://www.amazon.co.jp/%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2590%25E3%2582%258B%25E3%2581%2590%25E3%2582%258B-%25E3%2581%2584%25E3%2581%25A3%25E3%2581%2597%25E3%2582%2587%25E3%2581%25AB%25E3%2581%2582%25E3%2581%259D%25E3%2581%25BC-0-2%25E6%25AD%25B3%25E5%2585%2590%25E5%2590%2591%25E3%2581%2591-%25E7%25B5%25B5%25E6%259C%25AC-%25E6%259F%258F%25E5%258E%259F/dp/4052031113/ref=sr_1_1?__mk_ja_JP=%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A&amp;crid=3EZXBP8742I4V&amp;keywords=%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2590%25E3%2582%258B%25E3%2581%2590%25E3%2582%258B&amp;qid=1703832840&amp;s=books&amp;sprefix=%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2590%25E3%2582%258B%25E3%2581%2590%25E3%2582%258B%252Cstripbooks%252C174&amp;sr=1-1&_encoding=UTF8&tag=skup07-22&linkCode=ur2&linkId=34e66d45599d9109d72fd06bd941f21e&camp=247&creative=1211">しましまぐるぐる (いっしょにあそぼ) 0~2歳児向け 絵本</a>
 <br>
-<img src="../images/book3.jpg" width="80%"><br>
+<img style="border: solid 2px lemonchiffon;" src="../images/book3.jpg" width="80%"><br>
 唯一の難点はちょっと重い・・・寝ころんで一緒に読んだりすると腕がつらいです（笑）<br>
 実家に帰るときとかに2冊くらい絵本持っていきたいなと思うんですが、この本は重いので選ばれません。<br>
 <br>
@@ -101,7 +101,7 @@ Kindle版は無料みたいです！
 ずっと、にこにこしています。<br><br>
 <a target="_blank" href="https://www.amazon.co.jp/%25E3%2581%25A0%25E3%2582%258B%25E3%2581%25BE%25E3%2581%2595%25E3%2582%2593%25E3%2581%25A8-%25E3%2581%258B%25E3%2581%258C%25E3%2581%258F%25E3%2581%2584%25E3%2581%25B2%25E3%2582%258D%25E3%2581%2597%25E3%2581%25AE%25E3%2583%2595%25E3%2582%25A1%25E3%2583%25BC%25E3%2582%25B9%25E3%2583%2588%25E3%2583%2596%25E3%2583%2583%25E3%2582%25AF-3-%25E3%2581%258B%25E3%2581%258C%25E3%2581%258F%25E3%2581%2584-%25E3%2581%25B2%25E3%2582%258D%25E3%2581%2597/dp/4893094521/ref=sr_1_1?__mk_ja_JP=%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A&amp;crid=2R70FC5V6Z51T&amp;keywords=%25E3%2581%25A0%25E3%2582%258B%25E3%2581%25BE%25E3%2581%2595%25E3%2582%2593%25E3%2581%25A8&amp;qid=1703836861&amp;sprefix=%25E3%2581%25A0%25E3%2582%258B%25E3%2581%25BE%25E3%2581%2595%25E3%2582%2593%25E3%2581%25A8%252Caps%252C171&amp;sr=8-1&_encoding=UTF8&tag=skup07-22&linkCode=ur2&linkId=1eb72b942e958161e6ccedeedaaefe0e&camp=247&creative=1211">■だるまさんと</a>
 <br>
-<img src="../images/book4.jpg" width="80%"><br>
+<img style="border: solid 2px lemonchiffon;" src="../images/book4.jpg" width="80%"><br>
 <br>
 <br>
 
@@ -112,7 +112,7 @@ Kindle版は無料みたいです！
 うちの子は、まだ5カ月なのにストーリーを理解していて、ここ！ここ！と手をバンバン叩きます！これにはびっくりしました。<br>
 <a target="_blank" href="https://www.amazon.co.jp/%25E3%2581%258D%25E3%2582%2593%25E3%2581%258E%25E3%2582%2587%25E3%2581%258C-%25E3%2581%25AB%25E3%2581%2592%25E3%2581%259F-%25E5%25B9%25BC%25E5%2585%2590%25E7%25B5%25B5%25E6%259C%25AC%25E3%2582%25B7%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25BA-%25E4%25BA%2594%25E5%2591%25B3-%25E5%25A4%25AA%25E9%2583%258E/dp/4834008991/ref=sr_1_1?__mk_ja_JP=%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A&amp;crid=2ZIFI2CNHI58E&amp;keywords=%25E3%2581%258D%25E3%2582%2593%25E3%2581%258E%25E3%2582%2587%25E3%2581%258C+%25E3%2581%25AB%25E3%2581%2592%25E3%2581%259F+%2528%25E5%25B9%25BC%25E5%2585%2590%25E7%25B5%25B5%25E6%259C%25AC%25E3%2582%25B7%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25BA%2529&amp;qid=1703836531&amp;sprefix=%25E3%2581%258D%25E3%2582%2593%25E3%2581%258E%25E3%2582%2587%25E3%2581%258C+%25E3%2581%25AB%25E3%2581%2592%25E3%2581%259F+%25E5%25B9%25BC%25E5%2585%2590%25E7%25B5%25B5%25E6%259C%25AC%25E3%2582%25B7%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25BA+%252Caps%252C274&amp;sr=8-1&_encoding=UTF8&tag=skup07-22&linkCode=ur2&linkId=7ce302969a994318d1a88a46a18c4db9&camp=247&creative=1211">■きんぎょが にげた (幼児絵本シリーズ)</a>
 <br>
-<img src="../images/book5.jpg" width="80%"><br>
+<img style="border: solid 2px lemonchiffon;" src="../images/book5.jpg" width="80%"><br>
 誰かに読んでもらって、本の裏側から赤ちゃんの顔を見ると、ほんと目がいろんなところに動くんですよね！<br>
 動体視力もよくなりそうです。<br>
 <br>
@@ -124,7 +124,7 @@ Kindle版は無料みたいです！
 <br>
 <a target="_blank" href="https://www.amazon.co.jp/%25E3%2581%25A0%25E3%2582%258B%25E3%2581%25BE%25E3%2581%2595%25E3%2582%2593%25E3%2581%258C-%25E3%2581%258B%25E3%2581%258C%25E3%2581%258F%25E3%2581%2584-%25E3%2581%25B2%25E3%2582%258D%25E3%2581%2597/dp/4893094319/ref=sr_1_2?crid=26CD9CWYU57DC&amp;keywords=%25E3%2581%25A0%25E3%2582%258B%25E3%2581%25BE%25E3%2581%2595%25E3%2582%2593%25E3%2581%258C+%25E7%25B5%25B5%25E6%259C%25AC&amp;qid=1703837066&amp;sprefix=%25E3%2581%25A0%25E3%2582%258B%25E3%2581%25BE%25E3%2581%2595%25E3%2582%2593%25E3%2581%258C%252Caps%252C169&amp;sr=8-2&_encoding=UTF8&tag=skup07-22&linkCode=ur2&linkId=6196b2649a7eac69fcc7f360d8c50f11&camp=247&creative=1211">■だるまさんが</a>
 <br>
-<img src="../images/book6.jpg" width="80%"><br>
+<img style="border: solid 2px lemonchiffon;" src="../images/book6.jpg" width="80%"><br>
 <br>
 だるまさん「の」という本もるのですが、これはあまり受けなかったです。このランキングには出てきません。<br>
 <br>
@@ -138,7 +138,7 @@ Kindle版は無料みたいです！
 <br>
 <a target="_blank" href="https://www.amazon.co.jp/Sassy%25E3%2581%25AE%25E3%2581%2582%25E3%2581%258B%25E3%2581%25A1%25E3%2582%2583%25E3%2582%2593%25E3%2581%25AC%25E3%2581%25AE%25E3%2581%2588%25E3%2581%25BB%25E3%2582%2593-%25E3%2581%2582%25E3%2583%25BC%25E3%2581%259D%25E3%2583%25BC%25E3%2581%25BC-%25E3%2583%2590%25E3%2583%25A9%25E3%2582%25A8%25E3%2583%2586%25E3%2582%25A3-ZOO/dp/4041078857/ref=sr_1_18?__mk_ja_JP=%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A&amp;crid=HSOYQPBHOSWJ&amp;keywords=%25E8%25B5%25A4%25E3%2581%25A1%25E3%2582%2583%25E3%2582%2593%25E7%25B5%25B5%25E6%259C%25AC&amp;qid=1703837366&amp;sprefix=%25E8%25B5%25A4%25E3%2581%25A1%25E3%2582%2583%25E3%2582%2593%25E7%25B5%25B5%25E6%259C%25AC%252Caps%252C165&amp;sr=8-18&_encoding=UTF8&tag=skup07-22&linkCode=ur2&linkId=50d32ac3476b14d7ff640afab1ea1363&camp=247&creative=1211">■Sassyのあかちゃんぬのえほん あーそーぼ</a>
 <br>
-<img src="../images/book7.jpg" width="80%"><br>
+<img style="border: solid 2px lemonchiffon;" src="../images/book7.jpg" width="80%"><br>
 <br>
 <br>
 
@@ -149,7 +149,7 @@ Kindle版は無料みたいです！
 <br>
 <a target="_blank" href="https://www.amazon.co.jp/%25E3%2581%25BE%25E3%2582%258B%25E3%2581%25BE%25E3%2582%258B-%25E3%2581%25BD%25E3%2581%25BD%25E3%2581%25BD%25E3%2582%2593-%25E3%2581%2584%25E3%2581%25A3%25E3%2581%2597%25E3%2582%2587%25E3%2581%25AB%25E3%2581%2582%25E3%2581%259D%25E3%2581%25BC-0-2%25E6%25AD%25B3%25E5%2585%2590%25E5%2590%2591%25E3%2581%2591-%25E7%25B5%25B5%25E6%259C%25AC/dp/4052048067/ref=sr_1_145?__mk_ja_JP=%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A&amp;crid=HSOYQPBHOSWJ&amp;keywords=%25E8%25B5%25A4%25E3%2581%25A1%25E3%2582%2583%25E3%2582%2593%25E7%25B5%25B5%25E6%259C%25AC&amp;qid=1703837604&amp;sprefix=%25E8%25B5%25A4%25E3%2581%25A1%25E3%2582%2583%25E3%2582%2593%25E7%25B5%25B5%25E6%259C%25AC%252Caps%252C165&amp;sr=8-145&_encoding=UTF8&tag=skup07-22&linkCode=ur2&linkId=09779d7f6005529a51e3010c78abf728&camp=247&creative=1211">■まるまる ぽぽぽん (いっしょにあそぼ) 0~2歳児向け</a>
 <br>
-<img src="../images/book8.jpg" width="80%"><br>
+<img style="border: solid 2px lemonchiffon;" src="../images/book8.jpg" width="80%"><br>
 <br>
 <br>
 
@@ -161,7 +161,7 @@ Kindle版は無料みたいです！
 <br>
 <a target="_blank" href="https://www.amazon.co.jp/%25E3%2582%25B9%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%25A0%25E3%2581%25B4%25E3%2581%25B4%25E3%2581%25B4-0%25E3%2583%25BB1%25E3%2583%25BB2%25E3%2581%2595%25E3%2581%2584%25E3%2581%25AE%25E7%25B5%25B5%25E6%259C%25AC-%25E3%2582%25B9%25E3%2582%25AF%25E3%2582%25A6%25E3%2582%25A7%25E3%2582%25A2%25E3%2583%25BB%25E3%2582%25A8%25E3%2583%258B%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25B9/dp/4757562667/ref=sr_1_1?__mk_ja_JP=%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A&amp;crid=2CRKLCFPI9MRQ&amp;keywords=%25E3%2582%25B9%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%25A0%25E3%2581%25B4%25E3%2581%25B4%25E3%2581%25B4+%25E7%25B5%25B5%25E6%259C%25AC&amp;qid=1703839027&amp;s=books&amp;sprefix=%25E3%2582%25B9%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%25A0%25E3%2581%25B4%25E3%2581%25B4%25E3%2581%25B4+%25E7%25B5%25B5%25E6%259C%25AC%252Cstripbooks%252C149&amp;sr=1-1&_encoding=UTF8&tag=skup07-22&linkCode=ur2&linkId=f66b9a8eba7f051cde9bd25dc3c1fd83&camp=247&creative=1211">■スライムぴぴぴ (0・1・2さいの絵本)</a>
 <br>
-<img src="../images/book9.jpg" width="80%"><br>
+<img style="border: solid 2px lemonchiffon;" src="../images/book9.jpg" width="80%"><br>
 <br>
 <br>
 
@@ -173,7 +173,7 @@ Kindle版は無料みたいです！
 <br>
 <a target="_blank" href="https://www.amazon.co.jp/gp/product/4834081362/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&amp;psc=1&_encoding=UTF8&tag=skup07-22&linkCode=ur2&linkId=0056e850b58e1faab3018988d8d14ca1&camp=247&creative=1211">■まるてん いろてん (0.1.2.えほん) </a>
 <br>
-<img src="../images/book10.jpg" width="80%"><br>
+<img style="border: solid 2px lemonchiffon;" src="../images/book10.jpg" width="80%"><br>
 <br>
 <br>
 
