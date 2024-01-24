@@ -1,5 +1,5 @@
 ---
-title: 【赤ちゃん絵本】30冊以上読み聞かせして反応Great!だったおススメ絵本
+title: 赤ちゃんが生まれる時に用意するものベスト
 ---
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2844921131740253"
      crossorigin="anonymous"></script>
@@ -42,6 +42,7 @@ title: 【赤ちゃん絵本】30冊以上読み聞かせして反応Great!だ�
 
 
 ----
+
 ## ★スキンケア商品：アロベビー<br>
 赤ちゃんの肌って想像以上にめちゃくちゃ荒れます…朝綺麗だったのに、夕方にはガサガサ・赤くなってるとかざらですよね。<br>
 しかも、自分の爪で引っかいたりして傷もよくできるんですよね…<br>
@@ -49,7 +50,7 @@ title: 【赤ちゃん絵本】30冊以上読み聞かせして反応Great!だ�
 <br>
 <a target="_blank" href="https://amzn.to/3U94TK2">■ベビーローション アロベビー  ←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a1.jpg" width="80%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a1.jpg" width="40%"><br>
 <br>
 もともと赤ちゃんって新陳代謝がいいので、すぐ直ると思うんですけど、これがなかったら長期化していたと思います<br>
 <br>
@@ -62,18 +63,7 @@ Amazonでセット売りで安く買えたりするので、最近では塗り�
 <br>
 ただ、これでもよくならない、ひどい荒れの時は、やっぱり病院で処方してもらった薬を使うことがあります。<br>
 基本のメンテナンスは、アロベビーで十分かなと思います。
-<br>
-ちょっと、皿洗いしたいときとかも、これを置いてひかせておいて作業したり、助かってます。<br>
-<br>
-また、大人も楽しいんですよね。楽譜読めなくても番号がついてて弾けちゃうんですよ。<br>
-子供がある程度大きくなっても楽しめると思っていて、0~5歳対象なので、コスパも良いと思います。<br>
-<br>
-この本以外にもピアノのおもちゃ絵本沢山あるんですけど、<br>
-「速度調整機能」がついているのがいいなと思ってこれを買いました。
-<br>
-まだ今の月齢では無理ですが、大きくなってきてちょっと弾けるようになったときに、遅いテンポで練習とかできるとすごく自信がつくと思っています。<br><br>
-自分もピアノやギター習っていたので、始めは速度遅くしてついていけるようになることが、上達の道だなと思っています。<br>
-1個目から書きすぎましたが、それくらいおすすめです。<br><br>
+<br><br>
 
 
 ----
@@ -83,10 +73,9 @@ Amazonでセット売りで安く買えたりするので、最近では塗り�
 なぜなら、毎回洗って＆除菌がいるからです…。か弱い生き物なんですね、赤ちゃんは。<br>
 なので、一気に何本も除菌しておいて、24時間以内ならOKなので、そこから次々使うのが良いと思います。<br>
 <br>
-とにかく反応がある絵本です。<br>
 <a target="_blank" href="https://amzn.to/3vJmqOB">■哺乳瓶と乳首 ←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a2.jpg" width="80%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a2.jpg" width="40%"><br>
 この哺乳瓶、小さくて扱いやすいのと、乳首部分を結合する時に、ゴムみたいに引っ張ってくっつけるので楽です。<br>
 もう少し容量の大きな哺乳瓶だと、間にねじが切ってある器具をつけないといけなくて、それも除菌して…とかになってくるので、一発でつくのは非常に楽です<br>
 <br>
@@ -94,13 +83,13 @@ Amazonでセット売りで安く買えたりするので、最近では塗り�
 そちらのが好きという方もいて、これはどっちも良いのではないかなと思っています。除菌ができればよいです。<br>
 <a target="_blank" href="https://amzn.to/48KLPGm">■コンビ除菌じょーず ←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a3.jpg" width="80%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a3.jpg" width="40%"><br>
 <br>
 あと、哺乳瓶洗う時の洗剤ですね…洗剤はこれ使ってました。<br>
 <br>
 <a target="_blank" href="https://amzn.to/3vJmDRT">■ミルトン哺乳びん・さく乳器・野菜洗い ←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a4.jpg" width="80%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a4.jpg" width="40%"><br>
 <br>
 粉ミルクも色んな種類ありますが、これは産院で使っていたものが良いかなと思います。赤ちゃんも慣れている状態と思うので。
 <br>
@@ -117,7 +106,7 @@ Amazonでセット売りで安く買えたりするので、最近では塗り�
 
 <a target="_blank" href="https://amzn.to/3SeD3t9">ガーゼハンカチ　←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a5.jpg" width="80%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a5.jpg" width="40%"><br>
 ティッシュでいいじゃん～～♪<br>
 って最初は思っていました…もうね、肌が荒れる荒れる。<br>
 ティッシュで拭くのは、ガラス片で拭くのと同じ！！とかいう人もいて、そんな繊細なのか・・・と思い知らされました<br>
@@ -131,7 +120,7 @@ Amazonでセット売りで安く買えたりするので、最近では塗り�
 ほんと買っておいた方がよいと思います。<br>
 <a target="_blank" href="https://amzn.to/48PxXun">■コンビ ベビーレーベル ネイルケアセット　←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a6.jpg" width="80%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a6.jpg" width="40%"><br>
 <br>
 <br>
 
@@ -148,14 +137,14 @@ Amazonでセット売りで安く買えたりするので、最近では塗り�
 心配なら、パンパース（比較的高いけど）Sサイズ（テープタイプ）を1セット買っておくと良いかもしれません。<br>
 <a target="_blank" href="https://amzn.to/3S95p7X">■テープ Sサイズ】パンパース オムツ はじめての肌へのいちばん　←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a7.jpg" width="80%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a7.jpg" width="40%"><br>
 Amazonセール中は、3箱入りの段ボール×3～5注文したりして業者みたいですが、おむつの出費はえげつないです。<br>
 <br>
 おしりふきはこれ一択です。水分量が断然違う・・・おしりが荒れない。最高。
 <br>
 <a target="_blank" href="https://amzn.to/48R3Pis">■テープ Sサイズ】パンパース オムツ はじめての肌へのいちばん　←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a7‐1.jpg" width="80%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a7‐1.jpg" width="40%"><br>
 <br>
 <br>
 ----
@@ -172,7 +161,7 @@ Amazonセール中は、3箱入りの段ボール×3～5注文したりして業
 <br>
 <a target="_blank" href="https://amzn.to/49931VR">■リッチェル ひんやりしないおふろマットR 新生児　←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a8.jpg" width="80%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a8.jpg" width="40%"><br>
 <br>
 これ最高です。お風呂のオケみたいなのは粗大ごみになりますけど、これは発泡スチロールです。捨てるのも簡単だし軽いしすぐ乾くし。<br>
 唯一の欠点は、発泡スチロールなので、擦るとキュって音がします…私は気になりませんが、
@@ -180,13 +169,13 @@ Amazonセール中は、3箱入りの段ボール×3～5注文したりして業
 <br>
 <a target="_blank" href="https://amzn.to/48WLPTk">■ピジョン Pigeon ベビー泡シャンプー ベビーフラワーの香り　←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a9.jpg" width="80%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a9.jpg" width="40%"><br>
 シャンプーは、固形使っていましたが結局こちらに落ち着きました。洗い残しなどで湿疹が出たりするので、泡タイプが良かったですね。<br>
 <br>
 体用せっけん<br>
 <a target="_blank" href="https://amzn.to/3u6lAek">■arau.(アラウ)アラウ.ベビー 泡全身ソープ 　←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a10.jpg" width="80%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a10.jpg" width="40%"><br>
 <br>
 あとは、体洗うものとかは、ガーゼで良いと思います。顔拭いたりもしますし。<br>
 体拭くのは、家にあるでかいバスタオルでやってました。西松屋とかでも売っています。<br>
@@ -199,7 +188,7 @@ Amazonセール中は、3箱入りの段ボール×3～5注文したりして業
 <br>
 <a target="_blank" href="https://amzn.to/3Su8NM9">■【ベビーアムール】 Bebamour折りたたみ式 　←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a11.jpg" width="80%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a11.jpg" width="40%"><br>
 <br>
 <br>
 
@@ -213,13 +202,13 @@ Amazonセール中は、3箱入りの段ボール×3～5注文したりして業
 <br>
 <a target="_blank" href="https://www.nitori-net.jp/ec/product/8370612s/">■LEDランタン(ホルン)　←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a12.jpg" width="80%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a12.jpg" width="40%"><br>
 <br>
 欠点は、すぐ電池切れるんですよ。。。直列で単三4本なので、結構痛いです。<br>
 ので、Amazonでこれを買って、使いまわしてます。<br>
 <a target="_blank" href="https://amzn.to/4b95Pnp">■Amazonベーシック 充電池 充電式ニッケル水素電池 単3形8個セット　←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a13.jpg" width="80%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a13.jpg" width="40%"><br>
 <br>
 <br>
 <br>
@@ -233,7 +222,7 @@ Amazonセール中は、3箱入りの段ボール×3～5注文したりして業
 <br>
 <a target="_blank" href="https://amzn.to/3SwsPFY">■Medela(メデラ) 乳頭ケアクリーム ピュアレーン ３7g 天然ラノリン100% 　←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a14.jpg" width="80%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a14.jpg" width="40%"><br>
 <br>
 <br>
 
@@ -256,11 +245,13 @@ Amazonセール中は、3箱入りの段ボール×3～5注文したりして業
 　荒れたときは、こいつで洗い流してあげるとだいぶ回復します<br>
 <a target="_blank" href="https://amzn.to/48NesCI">■リッチェル 赤ちゃんおしりシャワー 　←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a15.jpg" width="80%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a15.jpg" width="40%"><br>
 <br>
 ・AIカメラ<br>
 　寝かせた後、リビングで落ち着けるようになった…<br>
 <a target="_blank" href="https://amzn.to/48IBISd">■Cubo Ai Plus スマートベビーモニター 　←リンク</a>
+<br>
+<img style="border: solid 2px lawngreen;" src="../images/a16.jpg" width="40%"><br>
 <br>
 ----
 
