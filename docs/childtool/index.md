@@ -19,9 +19,6 @@ title: 赤ちゃんが生まれる時に用意するものベスト
 　何を用意したらいいか迷って色々買ったけど
 　買ってよかったものをランキング形式で10つ紹介する
 ```
-<a target="_blank" href="https://www.amazon.co.jp/gp/product/B0C2GR9PZJ/ref=ox_sc_act_image_2?smid=AN1VRQENFRJN5&amp;th=1&_encoding=UTF8&tag=skup07-22&linkCode=ur2&linkId=df8a95b282ba67747caa90de5bf1711c&camp=247&creative=1211">ビオレ</a>
-
-<a target="_blank" href="https://www.amazon.co.jp/gp/product/B0CCHZ1737/ref=ox_sc_act_title_4?smid=AN1VRQENFRJN5&amp;th=1&_encoding=UTF8&tag=skup07-22&linkCode=ur2&linkId=57caef9a87d74088b39e822e0676d9c7&camp=247&creative=1211">おむつ</a>
 ----
 ## はじめに
 子供が生まれて半年ですが、本当に生活が一変しました。<br>
