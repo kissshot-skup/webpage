@@ -139,9 +139,9 @@ Amazonセール中は、3箱入りの段ボール×3～5注文したりして業
 <br>
 おしりふきはこれ一択です。水分量が断然違う・・・おしりが荒れない。最高。
 <br>
-<a target="_blank" href="https://amzn.to/48R3Pis">■テープ Sサイズ】パンパース オムツ はじめての肌へのいちばん　←リンク</a>
+<a target="_blank" href="https://amzn.to/48R3Pis">■おしりふき】ムーニー おしりふき やわらか厚手　←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a7‐1.jpg" width="40%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a71.jpg" width="40%"><br>
 <br>
 <br>
 ----
