@@ -166,13 +166,13 @@ Amazonセール中は、3箱入りの段ボール×3～5注文したりして業
 <br>
 <a target="_blank" href="https://amzn.to/48WLPTk">■ピジョン Pigeon ベビー泡シャンプー ベビーフラワーの香り　←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a9.jpg" width="40%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a9.png" width="40%"><br>
 シャンプーは、固形使っていましたが結局こちらに落ち着きました。洗い残しなどで湿疹が出たりするので、泡タイプが良かったですね。<br>
 <br>
 体用せっけん<br>
 <a target="_blank" href="https://amzn.to/3u6lAek">■arau.(アラウ)アラウ.ベビー 泡全身ソープ 　←リンク</a>
 <br>
-<img style="border: solid 2px lawngreen;" src="../images/a10.jpg" width="40%"><br>
+<img style="border: solid 2px lawngreen;" src="../images/a10.png" width="40%"><br>
 <br>
 あとは、体洗うものとかは、ガーゼで良いと思います。顔拭いたりもしますし。<br>
 体拭くのは、家にあるでかいバスタオルでやってました。西松屋とかでも売っています。<br>
@@ -250,6 +250,7 @@ Amazonセール中は、3箱入りの段ボール×3～5注文したりして業
 <br>
 <img style="border: solid 2px lawngreen;" src="../images/a16.jpg" width="40%"><br>
 <br>
+
 ----
 
 ## 買ったけど今のところ要らなかったと思うもの <br>
@@ -261,6 +262,7 @@ Amazonセール中は、3箱入りの段ボール×3～5注文したりして業
 　ガーゼ濡らして拭いてたらいらないかも。外出時くらいか<br>
 <br>
 <br>
+
 ----
 
 今日はここまで。また思い出した良品があれば書いていきます<br>
