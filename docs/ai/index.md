@@ -1,5 +1,5 @@
 ---
-title: Stable diffusion環境構築編
+title: 画像生成AI Stable diffusion環境構築編
 ---
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2844921131740253"
      crossorigin="anonymous"></script>
@@ -17,8 +17,8 @@ title: Stable diffusion環境構築編
 
 ```
 この記事にはこんなことが書かれています。
-- ローカルで試したがGPU性能足りずに断念
-　Paperspaceで環境構築
+- 画像生成AIを試してみたくローカルで試したがGPU性能足りずに断念
+　→Paperspaceで月千円程度レンタルサーバーする方向で環境構築
 - 参考記事とコマンドメモ
 ```
 <br>
@@ -51,7 +51,9 @@ GoogleColabが従量課金性になったとのことである程度固定金額
 <br>
 
 ```
-zip -r dlimage.zip /notebooks/stable-diffusion-webui/outputs/txt2img-images
+zip -r tempzip.zip /notebooks/stable-diffusion-webui/outputs/txt2img-images
+※日付指定したいときは↓
+zip -r tempzip.zip /notebooks/stable-diffusion-webui/outputs/txt2img-images/202x-xx-xx
 ```
 
 <br>
