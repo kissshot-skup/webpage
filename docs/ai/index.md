@@ -85,6 +85,22 @@ rm -r {取得したパス}
 <br>
 
 ----
+### よく使う呪文<br>
+■リアリティを高めた綺麗な写真を作る<br>
+<br>
+
+```
+masterpiece, best quality, (photorealistic:1.8), perfectly face, 
+beautiful girl, portfolio, big eyes, high detailed face, realistic, detailed description,
+high resolution, high quality, beautiful eyes, (looking at viewer:1.1), cat eyes, ruby eyes, 
+detailed skin, realistic skin texture, sweaty skin, skin pores, 
+
+/ネガティブプロンプト
+(worst quality, low quality:1.6), (monochrome:1.1), EasyNegative,depth of field, extra fingers, deformed fingers, long fingers, too many fingers, fused fingers, extra_legs, too many hands, missing_limb, (ugly face:1.2), text, 
+```
+
+----
+
 ### おわりに<br>
 環境が構築できたので、これから色々なモデルを試してみたいと思います。今回はこれにて！<br>
 
