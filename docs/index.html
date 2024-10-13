@@ -57,6 +57,29 @@
         font-size: 3.5rem;
       }
     }
+    /* リストのスタイルを無効にする */
+    .sort-btn {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .sort-btn li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    /* カードを3列に表示する */
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .item {
+      flex: 1 1 33%;
+      box-sizing: border-box;
+      padding: 10px;
+    }
   </style>
 </head>
 
