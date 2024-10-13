@@ -57,11 +57,13 @@
         font-size: 3.5rem;
       }
     }
+    /* 以下は241013追加。Bootstrapの変更？に対応 */
     /* リストのスタイルを無効にする */
     .sort-btn {
       list-style-type: none;
       padding: 0;
       margin: 0;
+      text-align: center; /* 中央揃え */
     }
 
     .sort-btn li {
@@ -73,12 +75,14 @@
     .grid {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center; /* 中央揃え */
     }
 
     .item {
-      flex: 1 1 33%;
+      flex: 1 1 30%;
       box-sizing: border-box;
       padding: 10px;
+      margin: 10px;
     }
   </style>
 </head>
