@@ -146,6 +146,11 @@ Seedとプロンプトが固定できたら、gif2gifにしてGenerate！！
 うまくいかなかったら、上記動画にあるように
 変更したい対象を絞る
 inpaintで対象範囲を塗り、Only maskedにチェックを入れてGenerate<br>
+要すれば元GIF画像自体にも手を加える。<br>
+[EZGIFcom](https://ezgif.com/)
+<br>
+
+
  <img src="../images/aimv1.png" width="50%"> <br>
 <br>
 これでおわり！<br>
