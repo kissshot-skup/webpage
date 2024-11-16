@@ -1,5 +1,5 @@
 ---
-title: 【何が最適か？】動画生成について
+title: 【生成AI】動画生成について
 ---
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2844921131740253"
      crossorigin="anonymous"></script>
@@ -17,7 +17,7 @@ title: 【何が最適か？】動画生成について
 
 ```
 この記事にはこんなことが書かれています。
-- Stable diffusionでgif動画を作る
+- Stable diffusion(Automatic1111)でgif動画を作る
 - 動画をつくる色々な方法について
 - 試してみた
 ```
@@ -44,6 +44,7 @@ https://civitai.com/images/13619186
 https://civitai.com/images/1737027 -->
 <br>
 
+----
 ## gif to gif（その１。元のGIFを作る）<br>
 まず、ffmpegでgifを作る。<br>
 [ここからはじめる](https://jp.videoproc.com/edit-convert/how-to-download-and-install-ffmpeg.htm)<br>
@@ -73,7 +74,8 @@ ffmpeg -ss 0 -t 3 -i src.mp4 -vf "fps=10,scale=320:-1:flags=lanczos" -c:v gif ou
 output.gif: 出力されるGIFファイルの名前を指定します。
 ```
 
-サンプルとして、例えば以下動画を使う<br>
+
+サンプルとして、例えば以下動画を使わせてもらうことにする<br>
 [サンプル](https://pixabay.com/ja/videos/%E3%83%98%E3%83%83%E3%83%89%E3%83%9B%E3%83%B3-%E5%A5%B3%E3%81%AE%E5%AD%90-%E5%A5%B3%E6%80%A7-202718/)<br>
 <br>
 その他ffmpeg補足。<br>
@@ -124,6 +126,7 @@ FFmpegを使った動画からGIFへの変換は非常に柔軟で、多くの�
 ```
 <br>
 
+----
 ## gif to gif（その２。WEB UI上の操作）<br>
 作成したGIFを食わせて、まずimg to imgでプロンプトの正確性の確認をする。<br>
 ここで、Seedも良いのを探す。<br>
@@ -147,6 +150,7 @@ inpaintで対象範囲を塗り、Only maskedにチェックを入れてGenerate
 <br>
 これでおわり！<br>
 
+----
 ## その他参考<br>
 [参考サイト](https://www.kombitz.com/2023/02/24/how-to-use-gif2gif-with-automatic1111s-stable-diffusion-web-ui/)
 
