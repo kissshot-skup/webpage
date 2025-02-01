@@ -239,7 +239,7 @@ root.render(
 <img src="../images/reacttodolist.png" width="80%"><br>
 <br>
 実際に触れる？画面↓（静的ページにもビルドして埋め込めた！！地味にすごい）<br>
-<iframe src="https://kissshot-skup.github.io/webpage/react/" width="100%" height="500px" frameborder="0"></iframe>
+<iframe src="https://kissshot-skup.github.io/webpage/react/app" width="100%" height="500px" frameborder="0"></iframe>
 <br>
 今日はここまで！！<br>
 <br>
