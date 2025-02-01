@@ -20,11 +20,14 @@ title: 【React】React製作環境立ち上げ＆試作メモ
 - Reactの製作ローカル環境立ち上げ方法
 - 簡単な試作（ToDoリストを作ったよ！）
 ```
+
 ----
+
 巷で話題のReactを触っていきたいと思います。まずは環境立ち上げから。<br>
 <br>
 
 ----
+
 ### ■参照すべきはどこ？<br>
 良く触っている同僚に聞いたら公式ドキュメントが一番いいよ！と教えてくれました<br>
 経験上、QittaとかZennで調べた方がいいのでは？と思っていましたが、色々とリサーチして、公式ドキュメントが一番わかりやすいし・丁寧ですｗ<br>
@@ -232,6 +235,9 @@ root.render(
 <br>
 
 <img src="../images/reacttodolist.png" width="80%"><br>
+<br>
+実際に触れる？画面↓（静的ページにもビルドして埋め込めた！！地味にすごい）<br>
+<iframe src="https://kissshot-skup.github.io/webpage/react/" width="100%" height="500px" frameborder="0"></iframe>
 <br>
 今日はここまで！！<br>
 <br>
