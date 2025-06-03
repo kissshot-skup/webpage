@@ -23,9 +23,11 @@ title: 【Obsidian×Cursor】環境立ち上げとテスト動画
 ----
 
 
-### ■立ち上げ後のテスト動画<br>
-<img src="../images/obsidiancursor.mp4" width="80%"><br>
-<br>
+<h3>■立ち上げ後のテスト動画</h3>
+<video src="../images/obsidiancursor.mp4" width="80%" controls>
+  この動画はお使いのブラウザで再生できません。
+</video>
+<br><br>
 
 ----
 ### ■参考記事<br>
