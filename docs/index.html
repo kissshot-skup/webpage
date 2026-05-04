@@ -75,7 +75,6 @@
       transition: all 0.3s ease;
     }
     .btn:hover {
-      transform: translateY(-3px);
       box-shadow: 0 6px 15px rgba(0,0,0,0.1);
     }
     .grid {
@@ -87,7 +86,14 @@
       margin-bottom: 40px;
     }
     .item { display: flex; }
-    .item-content { width: 100%; }
+    .item-content { 
+      width: 100%; 
+      position: relative;
+    }
+    .item-content:hover .card {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(146, 181, 169, 0.15);
+    }
     .card {
       background: var(--card-bg);
       border: none;
@@ -97,10 +103,7 @@
       transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
       height: 100%;
     }
-    .card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 20px 40px rgba(146, 181, 169, 0.15);
-    }
+
     .card-img-top {
       border-radius: 24px 24px 0 0;
       height: 190px;
