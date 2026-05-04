@@ -22,34 +22,122 @@
     gtag('js', new Date());
     gtag('config', 'G-H1234VX5NE');
   </script>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    /* リストのスタイルを無効にする */
-    .sort-btn {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-      text-align: center; /* 中央揃え */
+    :root {
+      --bg-color: #fdfbf7;
+      --card-bg: #ffffff;
+      --text-main: #5c5552;
+      --text-muted: #9c9794;
+      --primary-color: #92b5a9;
+      --glass-bg: rgba(253, 251, 247, 0.85);
+      --glass-border: rgba(255, 255, 255, 0.5);
     }
-
-    .sort-btn li {
-      display: inline-block;
-      margin-right: 10px;
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: 'Nunito', 'M PLUS Rounded 1c', sans-serif;
+      padding-top: 80px;
     }
-
-    /* カードを3列に表示する */
+    .navbar.fixed-top {
+      background: var(--glass-bg) !important;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--glass-border);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+    }
+    .navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
+      color: var(--text-main) !important;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+    .navbar-toggler-icon {
+      filter: invert(0.6);
+    }
+    header img.rounded-circle {
+      box-shadow: 0 8px 25px rgba(146, 181, 169, 0.3);
+      border: 4px solid white;
+      transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    header img.rounded-circle:hover {
+      transform: scale(1.08) rotate(3deg);
+    }
+    .btn {
+      border-radius: 50px;
+      padding: 8px 16px;
+      font-size: 0.9rem;
+      margin: 5px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
     .grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center; /* 中央揃え */
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 30px;
+      padding: 0;
+      list-style: none;
+      margin-bottom: 40px;
     }
-
-    .item {
-      flex: 1 1 30%;
-      box-sizing: border-box;
-      padding: 10px;
-      margin: 10px;
+    .item { display: flex; }
+    .item-content { width: 100%; }
+    .card {
+      background: var(--card-bg);
+      border: none;
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+      transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+      height: 100%;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(146, 181, 169, 0.15);
+    }
+    .card-img-top {
+      border-radius: 24px 24px 0 0;
+      height: 190px;
+      object-fit: cover;
+    }
+    .card-body { padding: 25px; }
+    .card-body h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: var(--text-main);
+      line-height: 1.4;
+    }
+    .card-body p {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 15px;
+    }
+    .btn-outline-secondary {
+      border-radius: 50px;
+      color: var(--primary-color);
+      border-color: var(--primary-color);
+      font-weight: bold;
+      border-width: 2px;
+      padding: 5px 20px;
+    }
+    .btn-outline-secondary:hover {
+      background-color: var(--primary-color);
+      color: white;
+      border-color: var(--primary-color);
+    }
+    .col-11.py-2 {
+      width: 100%;
+      padding: 0 !important;
     }
   </style>
+
 </head>
 <body>
   <!-- ナビゲーションバー ここから20220806 -->
@@ -81,10 +169,7 @@
   </nav>
   <!-- ナビゲーションバー ここまで20220806-->
   <header class="text-center mx-auto pt-3">
-    <br>
-    <!--ナビゲーションバー追加による改行調整20220806-->
-    <br>
-    <!--ナビゲーションバー追加による改行調整20220806-->
+    
     <img src="https://kissshot-skup.github.io/webpage/images/jikosyoukai1.jpg" class="mt-3 rounded-circle" width="120" height="120">
   </header>
   <main>
@@ -96,8 +181,8 @@
           <p>
             <a href="https://twitter.com/@kissshot_skup" class="btn btn-primary my-0"><i class="fab fa-twitter"> Twitter【勉強垢】</i></a>
             <a href="https://www.instagram.com/theyyyy_2017/" class="btn btn-danger my-0"><i class="fab fa-instagram"> Instagram</i></a>
-            <a href="https://kissshot-skup.github.io/webpage" class="btn btn-dark my-0" target=”_blank”><i class="fab fa-github"> GitHub</i></a>
-            <a href="https://qiita.com/kissshot_skup" class="btn btn-info my-0" target=”_blank”><i class="far fa-sticky-note"> Qiita</i></a>
+            <a href="https://kissshot-skup.github.io/webpage" class="btn btn-dark my-0"><i class="fab fa-github"> GitHub</i></a>
+            <a href="https://qiita.com/kissshot_skup" class="btn btn-info my-0"><i class="far fa-sticky-note"> Qiita</i></a>
           </p>
         </div>
       </div>
@@ -116,26 +201,21 @@
       <div class="container">
         <!-- <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-col-lg-1 g-3"> -->
         <!-- <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"> 元設定-->
-        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-col-lg-1 g-3">
         <ul class="grid">
           <!-- ここから カードae部分 -->
           <li class="item sort_engineer">
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/obsidian.png"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/obsidian.png">
                   <div class="card-body">
                     <h3 class="font-weight-bold">第二の脳をつくる！</h3>
                     <p class="card-text">最近はやりのObsidianとCursor 25/6/4</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/obsidian/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -147,19 +227,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/reactmark.png"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/reactmark.png">
                   <div class="card-body">
                     <h3 class="font-weight-bold">Reactを触ってみる！</h3>
                     <p class="card-text">フロントアプリもやっていくぞい  25/2/1</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/react/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -171,19 +247,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/aimvout.gif"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/aimvout.gif">
                   <div class="card-body">
                     <h3 class="font-weight-bold">生成AIで動画(まずGIF)を作る</h3>
                     <p class="card-text">生成AIの時代  24/11/17</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/aimovie/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -195,19 +267,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/m5stack.png"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/m5stack.png">
                   <div class="card-body">
                     <h3 class="font-weight-bold">M5stackと遊ぶ</h3>
                     <p class="card-text">面白デバイス  24/4/18</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/m5stack/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -219,19 +287,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/aitest.png"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/aitest.png">
                   <div class="card-body">
                     <h3 class="font-weight-bold">Stable diffusion環境構築</h3>
                     <p class="card-text"> GPUが世界を支配する 24/2/25</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/ai/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -243,19 +307,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/a14.jpg"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/a14.jpg">
                   <div class="card-body">
                     <h3 class="font-weight-bold">【赤ちゃんグッツ】生まれた時に用意しておくものベスト</h3>
                     <p class="card-text"> 子育て！！ 24/1/24</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/childtool/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -267,19 +327,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/suraimu.jpg"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/suraimu.jpg">
                   <div class="card-body">
                     <h3 class="font-weight-bold">【絵本】30冊以上読み聞かせして反応Great!だったおススメ絵本</h3>
                     <p class="card-text"> 赤ちゃんは可愛い 23/12/29</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/bookchild/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -291,19 +347,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/lapras2.jpg"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/lapras2.jpg">
                   <div class="card-body">
                     <h3 class="font-weight-bold">戦闘力を測ってみよう</h3>
                     <p class="card-text"> 私の戦闘力は53万です（フリー〇ー）23/12/24</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/rapras/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -315,19 +367,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/book_waka1.jpg"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/book_waka1.jpg">
                   <div class="card-body">
                     <h3 class="font-weight-bold">[本紹介]ノンフィクションエッセイは面白すぎる1</h3>
                     <p class="card-text">オードリー若林さんの本 23/12/14</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/book/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -339,19 +387,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/gcpfcs.png"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/gcpfcs.png">
                   <div class="card-body">
                     <h3 class="font-weight-bold">Google Cloudを使ってみよう</h3>
                     <p class="card-text">む…むずい 23/12/10</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/webapi5/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -363,19 +407,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/botsample.png"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/botsample.png">
                   <div class="card-body">
                     <h3 class="font-weight-bold">Qittaの良記事をつぶやくbotだ!</h3>
                     <p class="card-text">おもしれぇ!… 23/11/18</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/webapi4/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -387,19 +427,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/qittasample.png"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/qittasample.png">
                   <div class="card-body">
                     <h3 class="font-weight-bold">QittaAPIを使ってみた!</h3>
                     <p class="card-text">ワクワクさんになりたい… 23/11/11</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/webapi3/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -411,19 +447,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/bot.png"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/bot.png">
                   <div class="card-body">
                     <h3 class="font-weight-bold">Web APIでbotを作ろう!</h3>
                     <p class="card-text">ワクワクさん的なテンションで… 23/10/25</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/webapi2/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -435,19 +467,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/p2p.png"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/p2p.png">
                   <div class="card-body">
                     <h3 class="font-weight-bold">Web APIを調べる!</h3>
                     <p class="card-text">もっと技術力を養いたい… 23/10/14</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/webapi/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -459,19 +487,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/mayou.png"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/mayou.png">
                   <div class="card-body">
                     <h3 class="font-weight-bold">エンジニアとして進むべき道はどこか1</h3>
                     <p class="card-text">一度立ち止まって 23/10/3</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/engineer/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -483,19 +507,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/webhookhyosi.png" width="100%" height="225"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/webhookhyosi.png" width="100%" height="225">
                   <div class="card-body">
                     <h3 class="font-weight-bold">Webhookを使ってみよう@AWS</h3>
                     <p class="card-text">AWS奮闘記 23/9/20</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/webhook/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -507,19 +527,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/micon.png" width="100%" height="225"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/micon.png" width="100%" height="225">
                   <div class="card-body">
                     <h3 class="font-weight-bold">OS基礎知識</h3>
                     <p class="card-text">自作OS奮闘記2 23/5/7</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/makeos2/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -531,19 +547,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/makeos1-0.jpg" width="100%" height="225"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/makeos1-0.jpg" width="100%" height="225">
                   <div class="card-body">
                     <h3 class="font-weight-bold">OSを自作する</h3>
                     <p class="card-text">自作OS奮闘記1 23/3/26</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/makeos1/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -555,19 +567,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/kensaku1.png" width="100%" height="225"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/kensaku1.png" width="100%" height="225">
                   <div class="card-body">
                     <h3 class="font-weight-bold">検索窓を作りたい</h3>
                     <p class="card-text">HTML奮闘記 23/1/09</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/kensaku/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -579,19 +587,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/nweng.png" width="100%" height="225"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/nweng.png" width="100%" height="225">
                   <div class="card-body">
                     <h3 class="font-weight-bold">NW基礎知識#5</h3>
                     <p class="card-text">ネットワーク基礎用語とその解釈（パート5）23/1/07</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/nwkiso_denso5/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -603,19 +607,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/nweng.png" width="100%" height="225"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/nweng.png" width="100%" height="225">
                   <div class="card-body">
                     <h3 class="font-weight-bold">NW基礎知識#4</h3>
                     <p class="card-text">ネットワーク基礎用語とその解釈（パート4）22/12/18</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/nwkiso_denso4/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -627,19 +627,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/nweng.png" width="100%" height="225"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/nweng.png" width="100%" height="225">
                   <div class="card-body">
                     <h3 class="font-weight-bold">NW基礎知識#3</h3>
                     <p class="card-text">ネットワーク基礎用語とその解釈（パート3）22/12/11</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/nwkiso_denso3/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -651,19 +647,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/tsurugidake1.jpg" width="100%" height="225"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/tsurugidake1.jpg" width="100%" height="225">
                   <div class="card-body">
                     <h3 class="font-weight-bold">2022夏登山記録</h3>
                     <p class="card-text">登山記録part1 22/12/04</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/mountain/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -675,19 +667,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/bigdata.png" width="100%" height="225"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/bigdata.png" width="100%" height="225">
                   <div class="card-body">
                     <h3 class="font-weight-bold">食洗器の販売台数を機械学習で予測</h3>
                     <p class="card-text">機械学習パート3です 22/10/30</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/aiskillup3/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -699,19 +687,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/bigdata.png" width="100%" height="225"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/bigdata.png" width="100%" height="225">
                   <div class="card-body">
                     <h3 class="font-weight-bold">Python初心者が時系列データの学習2</h3>
                     <p class="card-text">機械学習パート2です 22/10/15</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/aiskillup2/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -723,19 +707,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/bigdata.png" width="100%" height="225"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/bigdata.png" width="100%" height="225">
                   <div class="card-body">
                     <h3 class="font-weight-bold">Python初心者が時系列データの学習</h3>
                     <p class="card-text">データアナリストに俺はなる！（ル〇ィ） 22/10/10</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/aiskillup/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -747,19 +727,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/p2p.png" width="100%" height="225"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/p2p.png" width="100%" height="225">
                   <div class="card-body">
                     <h3 class="font-weight-bold">ネットワーク基礎実験</h3>
                     <p class="card-text">PC同士の通信内容をのぞき見しよう 22/9/18</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/pcdenso/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -772,19 +748,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/nweng.png" width="100%" height="225"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/nweng.png" width="100%" height="225">
                   <div class="card-body">
                     <h3 class="font-weight-bold">NW基礎知識#2</h3>
                     <p class="card-text">ネットワーク基礎用語とその解釈（パート2）22/8/31</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/nwkiso_denso2/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -798,19 +770,15 @@
             <div class="item-content">
               <div class="col-11 py-2">
                 <div class="card shadow-lg">
-                  <img class="bd-placeholder-img card-img-top"
-                    src="https://kissshot-skup.github.io/webpage/images/nweng.png" width="100%" height="225"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
+                  <img class="bd-placeholder-img card-img-top" loading="lazy"
+                    src="https://kissshot-skup.github.io/webpage/images/nweng.png" width="100%" height="225">
                   <div class="card-body">
                     <h3 class="font-weight-bold">NW基礎知識#1</h3>
                     <p class="card-text">ネットワーク基礎用語とその解釈（パート1）22/8/5</p>
                     <div class="d-flex justify-content-between align-items-center">
                     </div>
                     <a href="https://kissshot-skup.github.io/webpage/nwkiso_denso/"
-                      class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                      class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                   </div>
                 </div>
               </div>
@@ -822,19 +790,15 @@
           <li class="item sort_music_book">
             <div class="col-11 py-2">
               <div class="card shadow-lg">
-                <img class="bd-placeholder-img card-img-top"
-                  src="https://kissshot-skup.github.io/webpage/images/podcast.png" width="100%" height="225"
-                  xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
+                <img class="bd-placeholder-img card-img-top" loading="lazy"
+                  src="https://kissshot-skup.github.io/webpage/images/podcast.png" width="100%" height="225">
                 <div class="card-body">
                   <h3 class="font-weight-bold">Podcastをはじめよう#1</h3>
                   <p class="card-text">音声データの配信方法 22/7/18</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                   <a href="https://kissshot-skup.github.io/webpage/podcast/"
-                    class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                    class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                 </div>
               </div>
             </div>
@@ -846,19 +810,15 @@
           <li class="item sort_engineer">
             <div class="col-11 py-2">
               <div class="card shadow-lg">
-                <img class="bd-placeholder-img card-img-top"
-                  src="https://kissshot-skup.github.io/webpage/images/nw1.jpg" width="100%" height="225"
-                  xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
+                <img class="bd-placeholder-img card-img-top" loading="lazy"
+                  src="https://kissshot-skup.github.io/webpage/images/nw1.jpg" width="100%" height="225">
                 <div class="card-body">
                   <h3 class="font-weight-bold">NW設計#1</h3>
                   <p class="card-text">QoS制御について学んだことを紹介します 22/7/5</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                   <a href="https://kissshot-skup.github.io/webpage/qos/"
-                    class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                    class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                 </div>
               </div>
             </div>
@@ -870,19 +830,15 @@
           <li class="item sort_qualification">
             <div class="col-11 py-2">
               <div class="card shadow-lg">
-                <img class="bd-placeholder-img card-img-top"
-                  src="https://kissshot-skup.github.io/webpage/images/jikan.png" width="100%" height="225"
-                  xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
+                <img class="bd-placeholder-img card-img-top" loading="lazy"
+                  src="https://kissshot-skup.github.io/webpage/images/jikan.png" width="100%" height="225">
                 <div class="card-body">
                   <h3 class="font-weight-bold">methodその1</h3>
                   <p class="card-text">資格取得のためのおすすめ勉強法を紹介します 22/5/29</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                   <a href="https://kissshot-skup.github.io/webpage/studyplus/"
-                    class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                    class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                 </div>
               </div>
             </div>
@@ -893,13 +849,8 @@
           <li class="item sort_qualification">
             <div class="col-11 py-2">
               <div class="card shadow-lg">
-                <img class="bd-placeholder-img card-img-top"
-                  src="https://kissshot-skup.github.io/webpage/images/twitter1.png" width="100%" height="225"
-                  xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
-
+                <img class="bd-placeholder-img card-img-top" loading="lazy"
+                  src="https://kissshot-skup.github.io/webpage/images/twitter1.png" width="100%" height="225">
                 <div class="card-body">
                   <h3 class="font-weight-bold">Twitter【勉強垢】</h3>
                   <p class="card-text">日々インプットしたもの、勉強メモをつぶやいています</p>
@@ -917,13 +868,8 @@
           <li class="item sort_music_book">
             <div class="col-11 py-2">
               <div class="card shadow-lg">
-                <img class="bd-placeholder-img card-img-top"
-                  src="https://kissshot-skup.github.io/webpage/images/insta1.jpg" width="100%" height="225"
-                  xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
-
+                <img class="bd-placeholder-img card-img-top" loading="lazy"
+                  src="https://kissshot-skup.github.io/webpage/images/insta1.jpg" width="100%" height="225">
                 <div class="card-body">
                   <h3 class="font-weight-bold">Instagram</h3>
                   <p class="card-text"> THE YYYY（ザ イヤーズ）として活動しています。バンドメンバーとの活動を発信しています。</p>
@@ -941,19 +887,15 @@
           <li class="item sort_qualification">
             <div class="col-11 py-2">
               <div class="card shadow-lg">
-                <img class="bd-placeholder-img card-img-top"
-                  src="https://kissshot-skup.github.io/webpage/images/sono2.png" width="100%" height="225"
-                  xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
+                <img class="bd-placeholder-img card-img-top" loading="lazy"
+                  src="https://kissshot-skup.github.io/webpage/images/sono2.png" width="100%" height="225">
                 <div class="card-body">
                   <h3 class="font-weight-bold">methodその2</h3>
                   <p class="card-text">資格取得のためのおすすめ勉強法を紹介します（パート2）22/5/14</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                   <a href="https://kissshot-skup.github.io/webpage/study_twitter/"
-                    class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>Blog</a>
+                    class="btn btn-sm btn-outline-secondary stretched-link">Blog</a>
                 </div>
               </div>
             </div>
@@ -964,20 +906,15 @@
           <li class="item sort_engineer">
             <div class="col-11 py-2">
               <div class="card shadow-lg">
-                <img class="bd-placeholder-img card-img-top"
-                  src="https://kissshot-skup.github.io/webpage/images/github.png" width="100%" height="225"
-                  xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
-
+                <img class="bd-placeholder-img card-img-top" loading="lazy"
+                  src="https://kissshot-skup.github.io/webpage/images/github.png" width="100%" height="225">
                 <div class="card-body">
                   <h3 class="font-weight-bold">GitHub</h3>
                   <p class="card-text">GitHub Pagesの機能を使ってWEB制作をしている環境です</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                   <a href="https://kissshot-skup.github.io/webpage/GitHub_Page/"
-                    class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>GitHub</a>
+                    class="btn btn-sm btn-outline-secondary stretched-link">GitHub</a>
                 </div>
               </div>
             </div>
@@ -988,20 +925,14 @@
           <li class="item sort_engineer">
             <div class="col-11 py-2">
               <div class="card shadow-lg">
-                <img class="bd-placeholder-img card-img-top"
-                  src="https://kissshot-skup.github.io/webpage/images/Quitta.png" width="100%" height="225"
-                  xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
-
+                <img class="bd-placeholder-img card-img-top" loading="lazy"
+                  src="https://kissshot-skup.github.io/webpage/images/Quitta.png" width="100%" height="225">
                 <div class="card-body">
                   <h3 class="font-weight-bold">Qiita</h3>
                   <p class="card-text">情報系エンジニアのための情報収集、発信の場として活用しています</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
-                  <a href="https://qiita.com/kissshot_skup" class="btn btn-sm btn-outline-secondary stretched-link"
-                    target=”_blank”>qitta</a>
+                  <a href="https://qiita.com/kissshot_skup" class="btn btn-sm btn-outline-secondary stretched-link">qitta</a>
                 </div>
               </div>
             </div>
@@ -1012,20 +943,15 @@
           <li class="item sort_qualification">
             <div class="col-11 py-2">
               <div class="card shadow-lg">
-                <img class="bd-placeholder-img card-img-top"
-                  src="https://kissshot-skup.github.io/webpage/images/aws.png" width="100%" height="225"
-                  xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
-
+                <img class="bd-placeholder-img card-img-top" loading="lazy"
+                  src="https://kissshot-skup.github.io/webpage/images/aws.png" width="100%" height="225">
                 <div class="card-body">
                   <h3 class="font-weight-bold">体験記‗資格取得</h3>
                   <p class="card-text">AWSの資格取得時の体験記 22/5/8</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                   <a href="https://kissshot-skup.github.io/webpage/AWS_SAA/"
-                    class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>blog</a>
+                    class="btn btn-sm btn-outline-secondary stretched-link">blog</a>
                 </div>
               </div>
             </div>
@@ -1036,20 +962,15 @@
           <li class="item sort_engineer">
             <div class="col-11 py-2">
               <div class="card shadow-lg">
-                <img class="bd-placeholder-img card-img-top"
-                  src="https://kissshot-skup.github.io/webpage/images/web1.png" width="100%" height="225"
-                  xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
-
+                <img class="bd-placeholder-img card-img-top" loading="lazy"
+                  src="https://kissshot-skup.github.io/webpage/images/web1.png" width="100%" height="225">
                 <div class="card-body">
                   <h3 class="font-weight-bold">Github pagesでHPを立ち上げる方法</h3>
                   <p class="card-text">WinPCでの作業方法を展開します。サーバレスかつ無料 22/5/5</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                   <a href="https://kissshot-skup.github.io/webpage/GitHub_Page/"
-                    class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>blog</a>
+                    class="btn btn-sm btn-outline-secondary stretched-link">blog</a>
                 </div>
               </div>
             </div>
@@ -1060,27 +981,21 @@
           <li class="item sort_poem">
             <div class="col-11 py-2">
               <div class="card shadow-lg">
-                <img class="bd-placeholder-img card-img-top"
-                  src="https://kissshot-skup.github.io/webpage/images/jikosyoukai1.jpg" width="100%" height="225"
-                  xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
-
+                <img class="bd-placeholder-img card-img-top" loading="lazy"
+                  src="https://kissshot-skup.github.io/webpage/images/jikosyoukai1.jpg" width="100%" height="225">
                 <div class="card-body">
                   <h3 class="font-weight-bold">自己紹介</h3>
                   <p class="card-text">本HPで記事を作成するメンバーの紹介です</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                   <a href="https://kissshot-skup.github.io/webpage/jikosyoukai/"
-                    class="btn btn-sm btn-outline-secondary stretched-link" target=”_blank”>blog</a>
+                    class="btn btn-sm btn-outline-secondary stretched-link">blog</a>
                 </div>
               </div>
             </div>
           </li>
           <!-- ここまで カード9部分 -->
         </ul>
-      </div>  
       </div>
     </div>
   </main>
